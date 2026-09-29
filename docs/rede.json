@@ -1,0 +1,6617 @@
+{
+ "titulo": "Rede Coletiva",
+ "regras": [
+  {
+   "q": "file:Gael Novaes",
+   "c": "#ffa51f"
+  },
+  {
+   "q": "file:Laura Leandra Lima",
+   "c": "#6c0820"
+  },
+  {
+   "q": "file:Lorena Vasconcellos",
+   "c": "#3d0795"
+  },
+  {
+   "q": "file:Mariana Malloy",
+   "c": "#2596be"
+  },
+  {
+   "q": "file:Mateus Torres",
+   "c": "#8d06ab"
+  },
+  {
+   "q": "tag:#tipo/ponte",
+   "c": "#f1dbff"
+  },
+  {
+   "q": "tag:#rede/gael",
+   "c": "#ffa51f"
+  },
+  {
+   "q": "tag:#rede/laura",
+   "c": "#6c0820"
+  },
+  {
+   "q": "tag:#rede/lorena",
+   "c": "#3d0795"
+  },
+  {
+   "q": "tag:#rede/malloy",
+   "c": "#2596be"
+  },
+  {
+   "q": "tag:#rede/teu",
+   "c": "#8d06ab"
+  }
+ ],
+ "legenda": [
+  {
+   "l": "Rede Gael",
+   "c": "#ffa51f"
+  },
+  {
+   "l": "Rede Laura",
+   "c": "#6c0820"
+  },
+  {
+   "l": "Rede Lorena",
+   "c": "#3d0795"
+  },
+  {
+   "l": "Rede Malloy",
+   "c": "#2596be"
+  },
+  {
+   "l": "Rede Teu",
+   "c": "#8d06ab"
+  },
+  {
+   "l": "Pontes entre redes",
+   "c": "#f1dbff"
+  }
+ ],
+ "nos": [
+  {
+   "id": "in-sujeito",
+   "nome": "(in)sujeito",
+   "tipo": "indicacao",
+   "ocupacao": "Curta experimental sobre identidade digital. Projeto de TCC",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "adriano-laidea",
+   "nome": "Adriano Laidea",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/cyco.idea"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "agencia-otrem-comunicacao",
+   "nome": "Agência Otrem Comunicação",
+   "tipo": "indicacao",
+   "ocupacao": "Designer Gráfico Junior",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Itajubá"
+   ],
+   "sites": [
+    "https://otremcomunica.com.br/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/itajuba"
+   ]
+  },
+  {
+   "id": "alice-botelho",
+   "nome": "Alice Botelho",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/alicebotelho/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "amanda",
+   "nome": "Amanda",
+   "tipo": "indicacao",
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "ana-clara-rocha",
+   "nome": "Ana Clara Rocha",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico e ilustração",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Contagem, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/contagem"
+   ]
+  },
+  {
+   "id": "ana-flavia-belo-horizonte",
+   "nome": "Ana Flávia (Belo Horizonte)",
+   "tipo": "indicacao",
+   "ocupacao": "Enfermagem, Professora",
+   "areas": [
+    "Enfermagem"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/enfermagem",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ana-flavia-cruzilia",
+   "nome": "Ana Flávia (Cruzília)",
+   "tipo": "indicacao",
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "ana-laura-silva",
+   "nome": "Ana Laura Silva",
+   "tipo": "indicacao",
+   "ocupacao": "Modelo e estudante de administração pública",
+   "areas": [
+    "Cultural"
+   ],
+   "locais": [
+    "Ouro Preto, MG"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/cultural",
+    "cidade/ouro-preto"
+   ]
+  },
+  {
+   "id": "ana-luisa-regis",
+   "nome": "Ana Luisa Regis",
+   "tipo": "indicacao",
+   "ocupacao": "Psicanalista lacaniana",
+   "areas": [
+    "Psicologia"
+   ],
+   "locais": [
+    "Brasília, DF"
+   ],
+   "sites": [
+    "https://www.instagram.com/faltaser.psi/"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/psicologia",
+    "cidade/brasilia"
+   ]
+  },
+  {
+   "id": "ana-paula",
+   "nome": "Ana Paula",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ana-sophia-zanon",
+   "nome": "Ana Sophia Zanon",
+   "tipo": "indicacao",
+   "ocupacao": "Estudante de biologia e pesquisadora",
+   "areas": [
+    "Biologia"
+   ],
+   "locais": [
+    "Caeté, MG"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/biologia",
+    "cidade/caete"
+   ]
+  },
+  {
+   "id": "anna-gabriela",
+   "nome": "Anna Gabriela",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/annagabiphoto/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "anna-stolf",
+   "nome": "Anna Stolf",
+   "tipo": "indicacao",
+   "ocupacao": "Professora, pesquisadora e artista-designer",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.annastolf.com/nn/",
+    "https://www.instagram.com/annastolf/"
+   ],
+   "redes": [
+    "Gael",
+    "Malloy"
+   ],
+   "indicado_por": [
+    "gael-novaes",
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/gael",
+    "rede/malloy",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arena-da-cultura",
+   "nome": "Arena da Cultura",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "Escola Livre De Artes Arena da Cultura | Prefeitura de Belo Horizonte"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arlete",
+   "nome": "Arlete",
+   "tipo": "indicacao",
+   "locais": [
+    "Betim, MG"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/betim"
+   ]
+  },
+  {
+   "id": "arnon-savio",
+   "nome": "Arnon Sávio",
+   "tipo": "indicacao",
+   "ocupacao": "Maestro, professor do magistério superior, pesquisador",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/arnonoliveiramaestro/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arthur-carriao",
+   "nome": "Arthur Carrião",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico e ilustrador freelance, Designer de produção - Grupo autêntica",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/carriao_arthur/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arthur-lima",
+   "nome": "Arthur Lima",
+   "tipo": "indicacao",
+   "ocupacao": "Logística e tráfego pago",
+   "areas": [
+    "Vendas"
+   ],
+   "locais": [
+    "Caeté, MG"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/vendas",
+    "cidade/caete"
+   ]
+  },
+  {
+   "id": "arthur-rodrigues",
+   "nome": "Arthur Rodrigues",
+   "tipo": "indicacao",
+   "ocupacao": "Design de Produtos, Tatuagem",
+   "areas": [
+    "Design de Produto",
+    "Tatuagem"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/art_tathur/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/design-de-produto",
+    "area/tatuagem",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arthur-schmidt",
+   "nome": "Arthur Schmidt",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, ilustração e VJ",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.behance.net/arthurschmidt12"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "arthur-verocai",
+   "nome": "Arthur Verocai",
+   "tipo": "indicacao",
+   "ocupacao": "Maestro, arranjador, compositor e multi-instrumentista",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Rio de Janeiro, RJ"
+   ],
+   "sites": [
+    "https://www.instagram.com/arthurverocai_/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/rio-de-janeiro"
+   ]
+  },
+  {
+   "id": "artvac",
+   "nome": "Artvac",
+   "tipo": "indicacao",
+   "ocupacao": "Revisor de clichê e Auxiliar de escritório",
+   "areas": [
+    "Empresa de embalagens flexíveis"
+   ],
+   "locais": [
+    "Três Pontas, MG"
+   ],
+   "sites": [
+    "https://artvac.com.br/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/empresa-de-embalagens-flexiveis",
+    "cidade/tres-pontas"
+   ]
+  },
+  {
+   "id": "arvore",
+   "nome": "Árvore",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/arvore.cc"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "b2b-business-consulting",
+   "nome": "B2B Business Consulting",
+   "tipo": "indicacao",
+   "areas": [
+    "Marketing Estratégico e Branding"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://negociosb2b.com.br/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/marketing-estrategico-e-branding",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "barbara-zeymer",
+   "nome": "Barbara Zeymer",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/caya.mkt/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "beatriz",
+   "nome": "Beatriz",
+   "tipo": "indicacao",
+   "ocupacao": "Ilustradora",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/_gatoinc/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "bernardo-augusto",
+   "nome": "Bernardo Augusto",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico e designer UX/UI",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/bernardo_cabral01/"
+   ],
+   "redes": [
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "breno-henrique",
+   "nome": "Breno Henrique",
+   "tipo": "indicacao",
+   "ocupacao": "Diretor de arte e produtor audiovisual",
+   "areas": [
+    "Audiovisual"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/brnnhq/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/audiovisual",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "bruna-aranha",
+   "nome": "Bruna Aranha",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, Iluminação, Produção Cultural",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "camila-malloy",
+   "nome": "Camila Malloy",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/cmalloy/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "camila-mesquita",
+   "nome": "Camila Mesquita",
+   "tipo": "indicacao",
+   "ocupacao": "Design de produtos, Design de embalagem, Food Design, UX Design",
+   "areas": [
+    "Design de Produto"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/balleradesign/"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-de-produto",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "carol-leal",
+   "nome": "Carol Leal",
+   "tipo": "indicacao",
+   "ocupacao": "Chefe de Gabinete, pedagoga",
+   "areas": [
+    "Política"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/carol.pleal/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/politica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ccbb-bh",
+   "nome": "CCBB-BH",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://ccbb.com.br/belo-horizonte/"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "centro-umbandista-caboclo-pena-verde",
+   "nome": "Centro Umbandista Caboclo Pena Verde",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "cicalt",
+   "nome": "Cicalt",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "clara-lins",
+   "nome": "Clara Lins",
+   "tipo": "indicacao",
+   "ocupacao": "Design de Ambientes, Professora Doutora em Design",
+   "areas": [
+    "Design de Ambientes"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/clara-lins-design/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-de-ambientes",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "claudio-pai",
+   "nome": "Claudio Pai",
+   "tipo": "indicacao",
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "claudio-santos",
+   "nome": "Cláudio Santos",
+   "tipo": "indicacao",
+   "ocupacao": "Professor, pesquisador e designer gráfico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://instagram.com/claudiovoltz",
+    "https://www.instagram.com/voltzdesign/"
+   ],
+   "redes": [
+    "Gael",
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "gael-novaes",
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/gael",
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "colegio-sao-joao-paulo-ii",
+   "nome": "Colégio São João Paulo II",
+   "tipo": "indicacao",
+   "ocupacao": "Outdoor, mídias sociais e flyer",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "curso-pro-federal-pre-vestibular",
+   "nome": "Curso Pró-Federal Pré-Vestibular",
+   "tipo": "indicacao",
+   "ocupacao": "Pré-vestibular, Mídias Sociais, Monitor",
+   "areas": [
+    "Design gráfico autônomo",
+    "Estudante"
+   ],
+   "locais": [
+    "Alfenas, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/cursoprofederal/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "area/estudante",
+    "cidade/alfenas"
+   ]
+  },
+  {
+   "id": "dauane",
+   "nome": "Dauane",
+   "tipo": "indicacao",
+   "ocupacao": "Secretária e Interprete em Libras",
+   "areas": [
+    "Secretariado"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/dauanefaustino/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/secretariado",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "davi-tameirao",
+   "nome": "Davi Tameirão",
+   "tipo": "indicacao",
+   "ocupacao": "Estudante de direito",
+   "areas": [
+    "Direito"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/davi_tameirao/"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/direito",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "david",
+   "nome": "David",
+   "tipo": "indicacao",
+   "ocupacao": "Engenharia Mecânica UFSJ",
+   "areas": [
+    "Ciências Exatas",
+    "Liderança"
+   ],
+   "locais": [
+    "Cruzília, MG",
+    "São João Del Rey"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/ciencias-exatas",
+    "area/lideranca",
+    "cidade/cruzilia",
+    "cidade/sao-joao-del-rey"
+   ]
+  },
+  {
+   "id": "dce-ufmg",
+   "nome": "DCE UFMG",
+   "tipo": "indicacao",
+   "ocupacao": "Diretório Central do Estudantes da UFMG",
+   "areas": [
+    "Entidade Estudantil"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/ufmgdce/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/entidade-estudantil",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "debora-salles",
+   "nome": "Debora Salles",
+   "tipo": "indicacao",
+   "ocupacao": "Produtora cultural e produtora audiovisual",
+   "areas": [
+    "Eventos e cultura"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/debs.png/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/eventos-e-cultura",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "dedel",
+   "nome": "Dedel",
+   "tipo": "indicacao",
+   "ocupacao": "Diretora e professora",
+   "areas": [
+    "Pedagogia"
+   ],
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/pedagogia",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "diego-lucas",
+   "nome": "Diego Lucas",
+   "tipo": "indicacao",
+   "ocupacao": "Audiovisual, videomaker, produção musical",
+   "areas": [
+    "Produção Audiovisual",
+    "Audiovisual"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/aucna_/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/producao-audiovisual",
+    "area/audiovisual",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "dobrasil-livemarketing",
+   "nome": "doBrasil Livemarketing",
+   "tipo": "indicacao",
+   "ocupacao": "Design de Eventos, Motion Design, cenografia, Identidade Visual",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://dobrasil.live/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "eric-goulart",
+   "nome": "Eric Goulart",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/quimerinha/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "escola-de-design-da-uemg",
+   "nome": "Escola de Design da UEMG",
+   "tipo": "indicacao",
+   "ocupacao": "Faculdade de design e artes visuais",
+   "areas": [
+    "Instituição de Ensino Superior"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.uemg.br/design"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/instituicao-de-ensino-superior",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "escola-de-musica-da-ufmg",
+   "nome": "Escola de Música da UFMG",
+   "tipo": "indicacao",
+   "ocupacao": "Faculdade de música",
+   "areas": [
+    "Instituição de Ensino Superior"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://musica.ufmg.br/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/instituicao-de-ensino-superior",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "fred-pedrosa",
+   "nome": "Fred Pedrosa",
+   "tipo": "indicacao",
+   "ocupacao": "Musicoterapeuta, professor do magistério superior, pesquisador",
+   "areas": [
+    "Musicoterapia"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/pedrosa.fred/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musicoterapia",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "gabriel-farace",
+   "nome": "Gabriel Farace",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico e designer UX/UI",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/gabrielfarace/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "gabriel-oliveira",
+   "nome": "Gabriel Oliveira",
+   "tipo": "indicacao",
+   "ocupacao": "pet groomer",
+   "areas": [
+    "Estética",
+    "higiene e bem-estar animal"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/estetica",
+    "area/higiene-e-bem-estar-animal",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "gabriela-dias",
+   "nome": "Gabriela Dias",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/studio.gdias/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "gabriela-lima",
+   "nome": "Gabriela Lima",
+   "tipo": "indicacao",
+   "ocupacao": "Estudante de nutrição",
+   "areas": [
+    "Saúde"
+   ],
+   "locais": [
+    "Caeté, MG"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/saude",
+    "cidade/caete"
+   ]
+  },
+  {
+   "id": "gael-novaes",
+   "nome": "Gael Novaes",
+   "tipo": "indicadores",
+   "redes": [
+    "Gael"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicadores"
+   ]
+  },
+  {
+   "id": "giovana-cougo",
+   "nome": "Giovana Cougo",
+   "tipo": "indicacao",
+   "ocupacao": "Biomedicina UFMG, Estágio em tecnologia e inovação CTIT, Presidente, Diretora de Relações Internacionais, Representante de Relações Internacionais do Distrito 4560 (Interact)",
+   "areas": [
+    "Saúde",
+    "Inovação",
+    "Liderança"
+   ],
+   "locais": [
+    "Três Pontas, MG",
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/saude",
+    "area/inovacao",
+    "area/lideranca",
+    "cidade/tres-pontas",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "giovana-santos",
+   "nome": "Giovana Santos",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico e ilustradora",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.behance.net/gisantos5?locale=nl_NL"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "giu",
+   "nome": "Giu",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico Júnior e colagem",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/giuudesign/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "guilherme-viana",
+   "nome": "Guilherme Viana",
+   "tipo": "indicacao",
+   "ocupacao": "Fotografia esportiva e conteúdo móvel",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "São Paulo"
+   ],
+   "sites": [
+    "https://www.behance.net/vianismos"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/sao-paulo"
+   ]
+  },
+  {
+   "id": "helio-gramiscelli",
+   "nome": "Helio Gramiscelli",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, arte educação",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/helio.gramiscelli/"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "igor-mariano",
+   "nome": "Igor Mariano",
+   "tipo": "indicacao",
+   "ocupacao": "Designer UX/UI e designer de produto",
+   "areas": [
+    "Design Gráfico",
+    "Design de Produto"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://igormariano.com/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "area/design-de-produto",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ikaro-breny",
+   "nome": "Ikaro Breny",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, design UX/UI e cantor",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/ikarobreny/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "interact",
+   "nome": "Interact",
+   "tipo": "indicacao",
+   "ocupacao": "Presidente e Diretor de Imagem Pública. Voluntariado",
+   "areas": [
+    "Design Gráfico",
+    "Liderança"
+   ],
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "area/lideranca",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "ivone-mae",
+   "nome": "Ivone Mãe",
+   "tipo": "indicacao",
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "iza-lourenca",
+   "nome": "Iza Lourença",
+   "tipo": "indicacao",
+   "ocupacao": "Vereadora e ativista",
+   "areas": [
+    "Política"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/izalourenca/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/politica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "izabel-oliveira",
+   "nome": "Izabel Oliveira",
+   "tipo": "indicacao",
+   "areas": [
+    "Vendas"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/vendas",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "joao-bicho",
+   "nome": "João Bicho",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, Arte educação, Artes Plásticas",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Ribeirão das Neves, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/b1choeu"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/ribeirao-das-neves"
+   ]
+  },
+  {
+   "id": "joao-lessa",
+   "nome": "João Lessa",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico, Diretor de Arte e DJ",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/jo%C3%A3o-filipe-lessa-99bbb8169/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "joao-librelon",
+   "nome": "João Librelon",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, motion design, character design e animação",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/dionolibrelon/"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "julia-filgueiras",
+   "nome": "Julia Filgueiras",
+   "tipo": "indicacao",
+   "ocupacao": "Diretora de arte e designer gráfico",
+   "areas": [
+    "Design"
+   ],
+   "locais": [
+    "São Paulo, SP"
+   ],
+   "sites": [
+    "https://www.instagram.com/juliakoala/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design",
+    "cidade/sao-paulo"
+   ]
+  },
+  {
+   "id": "katia-malloy",
+   "nome": "Kátia Malloy",
+   "tipo": "indicacao",
+   "ocupacao": "Professora do magistério superior, pianista, cantora",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "NA (falecida)"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lais-alkmim",
+   "nome": "Lais Alkmim",
+   "tipo": "indicacao",
+   "ocupacao": "Violonista, técnico de som",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/laisalkmim/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lala-carvalho",
+   "nome": "Lala Carvalho",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico, tatuadora e ceramista",
+   "areas": [
+    "Design e artes visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/lala.oak/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-e-artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "larissa-marcella",
+   "nome": "Larissa Marcella",
+   "tipo": "indicacao",
+   "ocupacao": "Estudante de Direito",
+   "areas": [
+    "Direito"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/direito",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "laura-leandra-lima",
+   "nome": "Laura Leandra Lima",
+   "tipo": "indicadores",
+   "ocupacao": "Design gráfico e social media",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/lacarv.dsgn/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicadores",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lavinia-carvalho",
+   "nome": "Lavinia Carvalho",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, ilustração",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "leo-thebit",
+   "nome": "Leo Thebit",
+   "tipo": "indicacao",
+   "ocupacao": "Pianista, pesquisador, área jurídica",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/__thebit/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "levi-dias",
+   "nome": "Levi Dias",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico e social media",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.behance.net/leviheringer/"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "liga",
+   "nome": "LIGA",
+   "tipo": "indicacao",
+   "ocupacao": "Laboratório Interdisciplinar de Games da UEMG",
+   "areas": [
+    "Design"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/ligauemg"
+   ],
+   "redes": [
+    "Laura",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "log-nature",
+   "nome": "Log Nature",
+   "tipo": "indicacao",
+   "ocupacao": "Estágio em Design Gráfico e Designer Júnior",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://lognature.com.br/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lohainne-lage",
+   "nome": "Lohainne Lage",
+   "tipo": "indicacao",
+   "ocupacao": "Produtora cultural, gestão e produção cultural, eventos e projetos",
+   "areas": [
+    "Cultura e eventos"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/lohainne-lage-96a3b7207/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/cultura-e-eventos",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lorena-abreu",
+   "nome": "Lorena Abreu",
+   "tipo": "indicacao",
+   "ocupacao": "Estudante de Psicologia",
+   "areas": [
+    "Psicologia"
+   ],
+   "locais": [
+    "Betim, MG"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/psicologia",
+    "cidade/betim"
+   ]
+  },
+  {
+   "id": "lorena-vasconcellos",
+   "nome": "Lorena Vasconcellos",
+   "tipo": "indicadores",
+   "ocupacao": "Designer gráfico e artista visual",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://instagram.com/alo.morfias"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicadores",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lucas-chico",
+   "nome": "Lucas Chico",
+   "tipo": "indicacao",
+   "ocupacao": "Cinema e fotografia",
+   "areas": [
+    "Fotografia"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://instagram.com/luccas.frp/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/fotografia",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lucas-de-pedro",
+   "nome": "Lucas de Pedro",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico, Motion Design, Música",
+   "areas": [
+    "Design Gráfico",
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/_depedra/",
+    "https://www.instagram.com/sour.and.soul/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "lucca-noacco",
+   "nome": "Lucca Noacco",
+   "tipo": "indicacao",
+   "ocupacao": "Arranjador, produtor musical, compositor e multi-instrumentista",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Rio de Janeiro, RJ"
+   ],
+   "sites": [
+    "https://www.instagram.com/luccanoacco/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/rio-de-janeiro"
+   ]
+  },
+  {
+   "id": "luciane-almeida",
+   "nome": "Luciane Almeida",
+   "tipo": "indicacao",
+   "ocupacao": "Professora e historiadora",
+   "areas": [
+    "Educação"
+   ],
+   "locais": [
+    "Sabará, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/lualmeida.75/"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/educacao",
+    "cidade/sabara"
+   ]
+  },
+  {
+   "id": "luis-matuto",
+   "nome": "Luis Matuto",
+   "tipo": "indicacao",
+   "ocupacao": "Diretor criativo, pesquisador e designer gráfico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/luismatuto/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "luisa-lorentz",
+   "nome": "Luisa Lorentz",
+   "tipo": "indicacao",
+   "ocupacao": "Empresária",
+   "areas": [
+    "Moda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/_luisalorentz/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/moda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "luisa-magalhaes",
+   "nome": "Luísa Magalhães",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico e social media",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/izz.yjpeg"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "luiza-lavis",
+   "nome": "Luiza Lavis",
+   "tipo": "indicacao",
+   "ocupacao": "Empresária",
+   "areas": [
+    "Moda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/lavisoficial/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/moda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ma-de-carvalho",
+   "nome": "Ma de Carvalho",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, ilustradora",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/madecarvalhoo/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mamutte",
+   "nome": "Mamutte",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, arte educação, performance",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/elmamutte"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marcela-vereza",
+   "nome": "Marcela Vereza",
+   "tipo": "indicacao",
+   "ocupacao": "Empresária",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/caya.mkt/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marcelina-almeida",
+   "nome": "Marcelina Almeida",
+   "tipo": "indicacao",
+   "ocupacao": "Doutora em História e Professora",
+   "areas": [
+    "Ciências Humanas"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.escavador.com/sobre/3796291/marcelina-das-gracas-de-almeida"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/ciencias-humanas",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marci-nuvem",
+   "nome": "Marci Nuvem",
+   "tipo": "indicacao",
+   "ocupacao": "Produção Cultural, Acessibilidade",
+   "areas": [
+    "Produção Cultural"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "N u v e m Produção Cultural & Acessibilidade"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/producao-cultural",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marcos-murillo",
+   "nome": "Marcos Murillo",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/orangemktimob/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "maria-beatriz",
+   "nome": "Maria Beatriz",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, arte educação, produção cultural",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/sour.and.soul/"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "maria-cecilia",
+   "nome": "Maria Cecília",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, Fotografa",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/ceciisssss/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mariana-lavis",
+   "nome": "Mariana Lavis",
+   "tipo": "indicacao",
+   "ocupacao": "Empresária",
+   "areas": [
+    "Moda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/lavisoficial/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/moda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mariana-malloy",
+   "nome": "Mariana Malloy",
+   "tipo": "indicadores",
+   "ocupacao": "Design Gráfico, Design da Informação, Sound Design, Design Editorial",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/marilloy/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicadores",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mariana-vereza",
+   "nome": "Mariana Vereza",
+   "tipo": "indicacao",
+   "ocupacao": "Empresária",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/caya.mkt/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marilia-campos",
+   "nome": "Marilia Campos",
+   "tipo": "indicacao",
+   "ocupacao": "mestre em administração de empresas, MBA em gestão de negócios, especialista em Branding e Visual Merchandising, diretora-sócia B2B BUSINESS CONSULTING e consultora e palestrante na área de Marketing, Branding, Naming, Criação de Marcas, Identidade Visual, Comunicação no PDV e Logística.",
+   "areas": [
+    "Marketing e Administração"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/marketing-e-administracao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "marquinhos-do-sus",
+   "nome": "Marquinhos do SUS",
+   "tipo": "indicacao",
+   "ocupacao": "Médico residente de infectologia, clinico geral",
+   "areas": [
+    "Medicina"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/marquinhosdosus/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/medicina",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mateus-torres",
+   "nome": "Mateus Torres",
+   "tipo": "indicadores",
+   "ocupacao": "Designer gráfico, game design e programadora",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/teu.psd/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicadores",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mayara-smith",
+   "nome": "Mayara Smith",
+   "tipo": "indicacao",
+   "ocupacao": "Artista visual, pesquisadora",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/mayarasmith_/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "melicio-britto",
+   "nome": "Melício Britto",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, Arte educação, Artes Plásticas",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Aracaju, SE"
+   ],
+   "sites": [
+    "https://www.instagram.com/meliciobritto"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/aracaju"
+   ]
+  },
+  {
+   "id": "mesa-de-buteco",
+   "nome": "Mesa de Buteco",
+   "tipo": "indicacao",
+   "ocupacao": "Cenografia e design pra evento",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Pará de Minas, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/mesa.debuteco/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/para-de-minas"
+   ]
+  },
+  {
+   "id": "metamuseu",
+   "nome": "Metamuseu",
+   "tipo": "indicacao",
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/_metamuseu/"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mia-corda",
+   "nome": "Mia Corda",
+   "tipo": "indicacao",
+   "ocupacao": "fotógrafa | DoP | editora | AC",
+   "areas": [
+    "Audiovisual"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/miacorda_/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/audiovisual",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "miguel-sena",
+   "nome": "Miguel Sena",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico e designer UX/UI",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/miguel.senaa_/"
+   ],
+   "redes": [
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mnemopoiese",
+   "nome": "MNEMOPOIESE",
+   "tipo": "indicacao",
+   "ocupacao": "Produção editorial sobre imaginário, memória e nostalgia. Projeto de TCC.",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "NA"
+   ],
+   "redes": [
+    "Laura",
+    "Malloy"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/malloy",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "mysth",
+   "nome": "Mysth",
+   "tipo": "indicacao",
+   "ocupacao": "Coletivo artístico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/mysth.co/"
+   ],
+   "redes": [
+    "Teu"
+   ],
+   "indicado_por": [
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/teu",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "nature-experiece",
+   "nome": "Nature Experiece",
+   "tipo": "indicacao",
+   "ocupacao": "Evento, Motion Design, cenografia, UI",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://nx.lognature.com.br/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "niltinho",
+   "nome": "Niltinho",
+   "tipo": "indicacao",
+   "ocupacao": "Produtor cultural e Artista",
+   "areas": [
+    "Evento e cultura"
+   ],
+   "locais": [
+    "Pará de Minas, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/eu.niltinhoaraujo/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/evento-e-cultura",
+    "cidade/para-de-minas"
+   ]
+  },
+  {
+   "id": "o-pao-e-a-palavra-da-vovo-maria-conga",
+   "nome": "O pão e a Palavra da Vovó Maria Conga",
+   "tipo": "indicacao",
+   "ocupacao": "Projeto comunitário alimentos para pessoas em situação de rua, Audiovisual, mídias sociais",
+   "areas": [
+    "Voluntário Design gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/opaoeapalavra/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/voluntario-design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "partido-politico-pdt",
+   "nome": "Partido político PDT",
+   "tipo": "indicacao",
+   "ocupacao": "Material viasual eleições de 2016",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Cruzília, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/cruzilia"
+   ]
+  },
+  {
+   "id": "paulo-cruz",
+   "nome": "Paulo Cruz",
+   "tipo": "indicacao",
+   "ocupacao": "Professor, game design e semiótica",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Contagem, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/paulopinheirocruz/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/contagem"
+   ]
+  },
+  {
+   "id": "pedro",
+   "nome": "Pedro",
+   "tipo": "indicacao",
+   "ocupacao": "CEO Otrem, Fotografo e videomaker",
+   "areas": [
+    "Publicidade e Propaganda"
+   ],
+   "locais": [
+    "Itajubá"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/pedro-neto-8b799718a/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "cidade/itajuba"
+   ]
+  },
+  {
+   "id": "permita-que-eu-fale",
+   "nome": "Permita que eu Fale",
+   "tipo": "indicacao",
+   "ocupacao": "Narrativa transmídia / website para impulsionar profissionais autônomos Trans em Belo Horiozonte. Projeto de TCC",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "rafa-martini",
+   "nome": "Rafa Martini",
+   "tipo": "indicacao",
+   "ocupacao": "Pianista, professor do magistério superior, pesquisador",
+   "areas": [
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/rafael_martini_/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "rafael-teixeira",
+   "nome": "Rafael Teixeira",
+   "tipo": "indicacao",
+   "ocupacao": "Coordenador de Design | Brand Designer | Designer Gráfico | Ilustrador | Designer Editorial | Designer Gráfico Sênior | Especialista em Design",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/rafaelteixeira85/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "raul-chaves",
+   "nome": "Raul Chaves",
+   "tipo": "indicacao",
+   "ocupacao": "Psicológo social",
+   "areas": [
+    "Psicologia"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/chaves.s.raul/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/psicologia",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "rayane-rosetti",
+   "nome": "Rayane Rosetti",
+   "tipo": "indicacao",
+   "ocupacao": "Cinema e fotografia",
+   "areas": [
+    "Produção Audiovisual",
+    "Fotografia"
+   ],
+   "locais": [
+    "Contagem, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/rrossette_/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/producao-audiovisual",
+    "area/fotografia",
+    "cidade/contagem"
+   ]
+  },
+  {
+   "id": "ricardo-portilho",
+   "nome": "Ricardo Portilho",
+   "tipo": "indicacao",
+   "ocupacao": "Professor, design gráfico, design editorial",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.escavador.com/sobre/3381424/ricardo-portilho-mattos",
+    "https://www.instagram.com/r_portilho/"
+   ],
+   "redes": [
+    "Gael",
+    "Laura",
+    "Malloy"
+   ],
+   "indicado_por": [
+    "gael-novaes",
+    "laura-leandra-lima",
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/gael",
+    "rede/laura",
+    "rede/malloy",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "ronald-souza",
+   "nome": "Ronald Souza",
+   "tipo": "indicacao",
+   "ocupacao": "Ilustração e design de moda",
+   "areas": [
+    "Design de Moda"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-de-moda",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "samuel-cesar",
+   "nome": "Samuel César",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico e social media",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "samuel-lopes",
+   "nome": "Samuel Lopes",
+   "tipo": "indicacao",
+   "ocupacao": "Produções de cinema, fotografia e design gráfico",
+   "areas": [
+    "Produção Audiovisual"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://instagram.com/korusthiak",
+    "https://www.instagram.com/korusthiak/"
+   ],
+   "redes": [
+    "Laura",
+    "Lorena",
+    "Malloy",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "lorena-vasconcellos",
+    "mariana-malloy",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/lorena",
+    "rede/malloy",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/producao-audiovisual",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "sebraetec",
+   "nome": "Sebraetec",
+   "tipo": "indicacao",
+   "ocupacao": "Diversos projetos de Identidade Visual",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "shinho",
+   "nome": "Shinho",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico, Diretor de Arte e Statement House of Barracuda (ballroom)",
+   "areas": [
+    "Design Gráfico",
+    "Cultura ballroom"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "area/cultura-ballroom",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "sol-quaresma",
+   "nome": "Sol Quaresma",
+   "tipo": "indicacao",
+   "ocupacao": "Design gráfico, programação e game design",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "sopa-pontos-dos-amigos",
+   "nome": "Sopa Pontos dos Amigos",
+   "tipo": "indicacao",
+   "ocupacao": "Bar próximo à praça da liberdade em BH",
+   "areas": [
+    "Outros"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/outros",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "thamara-carolina",
+   "nome": "Thâmara Carolina",
+   "tipo": "indicacao",
+   "ocupacao": "Design Gráfico, Fotografia",
+   "areas": [
+    "Design Gráfico",
+    "Fotografia"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/tc_dsg/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "area/fotografia",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "tipolab",
+   "nome": "TipoLab",
+   "tipo": "indicacao",
+   "ocupacao": "Laboratório de Tipografia da UEMG",
+   "areas": [
+    "Design"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/tipolab.uemg/"
+   ],
+   "redes": [
+    "Laura",
+    "Teu"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima",
+    "mateus-torres"
+   ],
+   "tags": [
+    "rede/laura",
+    "rede/teu",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "tiugabb-groomer",
+   "nome": "TiuGabb Groomer",
+   "tipo": "indicacao",
+   "ocupacao": "Identidade Visual, Branding, naming, audiovisual",
+   "areas": [
+    "Design gráfico autônomo"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/design-grafico-autonomo",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "trembase",
+   "nome": "Trembase",
+   "tipo": "indicacao",
+   "ocupacao": "Festa cultural underground",
+   "areas": [
+    "Eventos e cultura"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/trembase_/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/eventos-e-cultura",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "tulio",
+   "nome": "Túlio",
+   "tipo": "indicacao",
+   "ocupacao": "CEO Otrem, Administração, Marketing e Design",
+   "areas": [
+    "Marketing e Administração"
+   ],
+   "locais": [
+    "Itajubá"
+   ],
+   "sites": [
+    "https://www.linkedin.com/in/meirelestulio/"
+   ],
+   "redes": [
+    "Gael"
+   ],
+   "indicado_por": [
+    "gael-novaes"
+   ],
+   "tags": [
+    "rede/gael",
+    "tipo/indicacao",
+    "area/marketing-e-administracao",
+    "cidade/itajuba"
+   ]
+  },
+  {
+   "id": "uemg",
+   "nome": "UEMG",
+   "tipo": "indicacao",
+   "ocupacao": "Faculdade",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "redes": [
+    "Gael",
+    "Lorena"
+   ],
+   "indicado_por": [
+    "gael-novaes",
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/gael",
+    "rede/lorena",
+    "tipo/indicacao",
+    "tipo/ponte",
+    "area/design-grafico",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "victor-lauar",
+   "nome": "Victor Lauar",
+   "tipo": "indicacao",
+   "ocupacao": "Publicidade e Propaganda, Produção Audiovisual",
+   "areas": [
+    "Publicidade e Propaganda",
+    "Música"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "http://instagram.com/ruztwave/"
+   ],
+   "redes": [
+    "Laura"
+   ],
+   "indicado_por": [
+    "laura-leandra-lima"
+   ],
+   "tags": [
+    "rede/laura",
+    "tipo/indicacao",
+    "area/publicidade-e-propaganda",
+    "area/musica",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "yan-listz",
+   "nome": "Yan Listz",
+   "tipo": "indicacao",
+   "ocupacao": "Designer gráfico",
+   "areas": [
+    "Design Gráfico"
+   ],
+   "locais": [
+    "Cataguases, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/yanliszt/"
+   ],
+   "redes": [
+    "Malloy"
+   ],
+   "indicado_por": [
+    "mariana-malloy"
+   ],
+   "tags": [
+    "rede/malloy",
+    "tipo/indicacao",
+    "area/design-grafico",
+    "cidade/cataguases"
+   ]
+  },
+  {
+   "id": "yan-nicolas",
+   "nome": "Yan Nicolas",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, Arte educação",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/yan_nicolas__/"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  },
+  {
+   "id": "yan-rodrigues-yor",
+   "nome": "Yan Rodrigues Yor",
+   "tipo": "indicacao",
+   "ocupacao": "Artes Visuais, Grafitte",
+   "areas": [
+    "Artes Visuais"
+   ],
+   "locais": [
+    "Belo Horizonte, MG"
+   ],
+   "sites": [
+    "https://www.instagram.com/yor.cf"
+   ],
+   "redes": [
+    "Lorena"
+   ],
+   "indicado_por": [
+    "lorena-vasconcellos"
+   ],
+   "tags": [
+    "rede/lorena",
+    "tipo/indicacao",
+    "area/artes-visuais",
+    "cidade/belo-horizonte"
+   ]
+  }
+ ],
+ "ligacoes": [
+  [
+   "adriano-laidea",
+   "cicalt"
+  ],
+  [
+   "adriano-laidea",
+   "helio-gramiscelli"
+  ],
+  [
+   "adriano-laidea",
+   "joao-bicho"
+  ],
+  [
+   "adriano-laidea",
+   "lorena-vasconcellos"
+  ],
+  [
+   "adriano-laidea",
+   "mamutte"
+  ],
+  [
+   "adriano-laidea",
+   "maria-beatriz"
+  ],
+  [
+   "agencia-otrem-comunicacao",
+   "gael-novaes"
+  ],
+  [
+   "agencia-otrem-comunicacao",
+   "guilherme-viana"
+  ],
+  [
+   "agencia-otrem-comunicacao",
+   "pedro"
+  ],
+  [
+   "agencia-otrem-comunicacao",
+   "tulio"
+  ],
+  [
+   "alice-botelho",
+   "igor-mariano"
+  ],
+  [
+   "alice-botelho",
+   "laura-leandra-lima"
+  ],
+  [
+   "alice-botelho",
+   "victor-lauar"
+  ],
+  [
+   "amanda",
+   "ana-flavia-cruzilia"
+  ],
+  [
+   "amanda",
+   "claudio-pai"
+  ],
+  [
+   "amanda",
+   "dedel"
+  ],
+  [
+   "amanda",
+   "gael-novaes"
+  ],
+  [
+   "amanda",
+   "ivone-mae"
+  ],
+  [
+   "ana-clara-rocha",
+   "arthur-schmidt"
+  ],
+  [
+   "ana-clara-rocha",
+   "bernardo-augusto"
+  ],
+  [
+   "ana-clara-rocha",
+   "claudio-santos"
+  ],
+  [
+   "ana-clara-rocha",
+   "joao-librelon"
+  ],
+  [
+   "ana-clara-rocha",
+   "laura-leandra-lima"
+  ],
+  [
+   "ana-clara-rocha",
+   "lavinia-carvalho"
+  ],
+  [
+   "ana-clara-rocha",
+   "levi-dias"
+  ],
+  [
+   "ana-clara-rocha",
+   "liga"
+  ],
+  [
+   "ana-clara-rocha",
+   "lorena-vasconcellos"
+  ],
+  [
+   "ana-clara-rocha",
+   "lucas-de-pedro"
+  ],
+  [
+   "ana-clara-rocha",
+   "luisa-magalhaes"
+  ],
+  [
+   "ana-clara-rocha",
+   "mateus-torres"
+  ],
+  [
+   "ana-clara-rocha",
+   "paulo-cruz"
+  ],
+  [
+   "ana-clara-rocha",
+   "ronald-souza"
+  ],
+  [
+   "ana-clara-rocha",
+   "samuel-cesar"
+  ],
+  [
+   "ana-clara-rocha",
+   "sol-quaresma"
+  ],
+  [
+   "ana-clara-rocha",
+   "tipolab"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "arlete"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "bernardo-augusto"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "bruna-aranha"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "cicalt"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "helio-gramiscelli"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "ikaro-breny"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "lorena-vasconcellos"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "lucas-de-pedro"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "mamutte"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "maria-beatriz"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "mariana-malloy"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "mateus-torres"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "miguel-sena"
+  ],
+  [
+   "ana-flavia-belo-horizonte",
+   "samuel-lopes"
+  ],
+  [
+   "ana-flavia-cruzilia",
+   "claudio-pai"
+  ],
+  [
+   "ana-flavia-cruzilia",
+   "dedel"
+  ],
+  [
+   "ana-flavia-cruzilia",
+   "gael-novaes"
+  ],
+  [
+   "ana-flavia-cruzilia",
+   "ivone-mae"
+  ],
+  [
+   "ana-laura-silva",
+   "ana-sophia-zanon"
+  ],
+  [
+   "ana-laura-silva",
+   "arthur-lima"
+  ],
+  [
+   "ana-laura-silva",
+   "gabriela-lima"
+  ],
+  [
+   "ana-laura-silva",
+   "lorena-vasconcellos"
+  ],
+  [
+   "ana-laura-silva",
+   "mateus-torres"
+  ],
+  [
+   "ana-laura-silva",
+   "mysth"
+  ],
+  [
+   "ana-luisa-regis",
+   "in-sujeito"
+  ],
+  [
+   "ana-luisa-regis",
+   "mateus-torres"
+  ],
+  [
+   "ana-paula",
+   "camila-mesquita"
+  ],
+  [
+   "ana-paula",
+   "gabriela-dias"
+  ],
+  [
+   "ana-paula",
+   "igor-mariano"
+  ],
+  [
+   "ana-paula",
+   "laura-leandra-lima"
+  ],
+  [
+   "ana-paula",
+   "marcos-murillo"
+  ],
+  [
+   "ana-paula",
+   "thamara-carolina"
+  ],
+  [
+   "ana-sophia-zanon",
+   "arthur-lima"
+  ],
+  [
+   "ana-sophia-zanon",
+   "camila-mesquita"
+  ],
+  [
+   "ana-sophia-zanon",
+   "gabriela-lima"
+  ],
+  [
+   "ana-sophia-zanon",
+   "luciane-almeida"
+  ],
+  [
+   "ana-sophia-zanon",
+   "mateus-torres"
+  ],
+  [
+   "ana-sophia-zanon",
+   "samuel-lopes"
+  ],
+  [
+   "anna-gabriela",
+   "barbara-zeymer"
+  ],
+  [
+   "anna-gabriela",
+   "igor-mariano"
+  ],
+  [
+   "anna-gabriela",
+   "larissa-marcella"
+  ],
+  [
+   "anna-gabriela",
+   "laura-leandra-lima"
+  ],
+  [
+   "anna-gabriela",
+   "marcela-vereza"
+  ],
+  [
+   "anna-gabriela",
+   "mariana-vereza"
+  ],
+  [
+   "anna-stolf",
+   "claudio-santos"
+  ],
+  [
+   "anna-stolf",
+   "escola-de-design-da-uemg"
+  ],
+  [
+   "anna-stolf",
+   "gael-novaes"
+  ],
+  [
+   "anna-stolf",
+   "lala-carvalho"
+  ],
+  [
+   "anna-stolf",
+   "laura-leandra-lima"
+  ],
+  [
+   "anna-stolf",
+   "mariana-malloy"
+  ],
+  [
+   "anna-stolf",
+   "mnemopoiese"
+  ],
+  [
+   "anna-stolf",
+   "paulo-cruz"
+  ],
+  [
+   "anna-stolf",
+   "ricardo-portilho"
+  ],
+  [
+   "anna-stolf",
+   "uemg"
+  ],
+  [
+   "arena-da-cultura",
+   "bruna-aranha"
+  ],
+  [
+   "arena-da-cultura",
+   "lorena-vasconcellos"
+  ],
+  [
+   "arlete",
+   "lorena-vasconcellos"
+  ],
+  [
+   "arnon-savio",
+   "camila-malloy"
+  ],
+  [
+   "arnon-savio",
+   "diego-lucas"
+  ],
+  [
+   "arnon-savio",
+   "eric-goulart"
+  ],
+  [
+   "arnon-savio",
+   "escola-de-musica-da-ufmg"
+  ],
+  [
+   "arnon-savio",
+   "fred-pedrosa"
+  ],
+  [
+   "arnon-savio",
+   "katia-malloy"
+  ],
+  [
+   "arnon-savio",
+   "leo-thebit"
+  ],
+  [
+   "arnon-savio",
+   "mariana-malloy"
+  ],
+  [
+   "arnon-savio",
+   "rafa-martini"
+  ],
+  [
+   "arthur-carriao",
+   "beatriz"
+  ],
+  [
+   "arthur-carriao",
+   "gael-novaes"
+  ],
+  [
+   "arthur-carriao",
+   "giovana-santos"
+  ],
+  [
+   "arthur-carriao",
+   "maria-cecilia"
+  ],
+  [
+   "arthur-carriao",
+   "uemg"
+  ],
+  [
+   "arthur-lima",
+   "gabriela-lima"
+  ],
+  [
+   "arthur-lima",
+   "igor-mariano"
+  ],
+  [
+   "arthur-lima",
+   "laura-leandra-lima"
+  ],
+  [
+   "arthur-lima",
+   "lorena-vasconcellos"
+  ],
+  [
+   "arthur-lima",
+   "mateus-torres"
+  ],
+  [
+   "arthur-rodrigues",
+   "laura-leandra-lima"
+  ],
+  [
+   "arthur-rodrigues",
+   "rayane-rosetti"
+  ],
+  [
+   "arthur-schmidt",
+   "bernardo-augusto"
+  ],
+  [
+   "arthur-schmidt",
+   "joao-librelon"
+  ],
+  [
+   "arthur-schmidt",
+   "laura-leandra-lima"
+  ],
+  [
+   "arthur-schmidt",
+   "lavinia-carvalho"
+  ],
+  [
+   "arthur-schmidt",
+   "levi-dias"
+  ],
+  [
+   "arthur-schmidt",
+   "liga"
+  ],
+  [
+   "arthur-schmidt",
+   "lorena-vasconcellos"
+  ],
+  [
+   "arthur-schmidt",
+   "luisa-magalhaes"
+  ],
+  [
+   "arthur-schmidt",
+   "mateus-torres"
+  ],
+  [
+   "arthur-schmidt",
+   "paulo-cruz"
+  ],
+  [
+   "arthur-schmidt",
+   "ronald-souza"
+  ],
+  [
+   "arthur-schmidt",
+   "samuel-cesar"
+  ],
+  [
+   "arthur-schmidt",
+   "sol-quaresma"
+  ],
+  [
+   "arthur-verocai",
+   "lucca-noacco"
+  ],
+  [
+   "arthur-verocai",
+   "mariana-malloy"
+  ],
+  [
+   "artvac",
+   "gael-novaes"
+  ],
+  [
+   "artvac",
+   "giovana-cougo"
+  ],
+  [
+   "arvore",
+   "lorena-vasconcellos"
+  ],
+  [
+   "b2b-business-consulting",
+   "gael-novaes"
+  ],
+  [
+   "b2b-business-consulting",
+   "marilia-campos"
+  ],
+  [
+   "b2b-business-consulting",
+   "sebraetec"
+  ],
+  [
+   "b2b-business-consulting",
+   "shinho"
+  ],
+  [
+   "barbara-zeymer",
+   "laura-leandra-lima"
+  ],
+  [
+   "barbara-zeymer",
+   "marcela-vereza"
+  ],
+  [
+   "barbara-zeymer",
+   "mariana-vereza"
+  ],
+  [
+   "beatriz",
+   "gael-novaes"
+  ],
+  [
+   "beatriz",
+   "uemg"
+  ],
+  [
+   "bernardo-augusto",
+   "camila-mesquita"
+  ],
+  [
+   "bernardo-augusto",
+   "claudio-santos"
+  ],
+  [
+   "bernardo-augusto",
+   "diego-lucas"
+  ],
+  [
+   "bernardo-augusto",
+   "escola-de-design-da-uemg"
+  ],
+  [
+   "bernardo-augusto",
+   "igor-mariano"
+  ],
+  [
+   "bernardo-augusto",
+   "ikaro-breny"
+  ],
+  [
+   "bernardo-augusto",
+   "laura-leandra-lima"
+  ],
+  [
+   "bernardo-augusto",
+   "lavinia-carvalho"
+  ],
+  [
+   "bernardo-augusto",
+   "levi-dias"
+  ],
+  [
+   "bernardo-augusto",
+   "liga"
+  ],
+  [
+   "bernardo-augusto",
+   "lorena-vasconcellos"
+  ],
+  [
+   "bernardo-augusto",
+   "lucas-de-pedro"
+  ],
+  [
+   "bernardo-augusto",
+   "luisa-magalhaes"
+  ],
+  [
+   "bernardo-augusto",
+   "mamutte"
+  ],
+  [
+   "bernardo-augusto",
+   "maria-beatriz"
+  ],
+  [
+   "bernardo-augusto",
+   "mariana-malloy"
+  ],
+  [
+   "bernardo-augusto",
+   "mateus-torres"
+  ],
+  [
+   "bernardo-augusto",
+   "miguel-sena"
+  ],
+  [
+   "bernardo-augusto",
+   "paulo-cruz"
+  ],
+  [
+   "bernardo-augusto",
+   "ronald-souza"
+  ],
+  [
+   "bernardo-augusto",
+   "samuel-cesar"
+  ],
+  [
+   "bernardo-augusto",
+   "samuel-lopes"
+  ],
+  [
+   "bernardo-augusto",
+   "sol-quaresma"
+  ],
+  [
+   "bernardo-augusto",
+   "uemg"
+  ],
+  [
+   "breno-henrique",
+   "diego-lucas"
+  ],
+  [
+   "breno-henrique",
+   "mariana-malloy"
+  ],
+  [
+   "bruna-aranha",
+   "cicalt"
+  ],
+  [
+   "bruna-aranha",
+   "helio-gramiscelli"
+  ],
+  [
+   "bruna-aranha",
+   "joao-bicho"
+  ],
+  [
+   "bruna-aranha",
+   "lorena-vasconcellos"
+  ],
+  [
+   "bruna-aranha",
+   "lucas-de-pedro"
+  ],
+  [
+   "bruna-aranha",
+   "mamutte"
+  ],
+  [
+   "bruna-aranha",
+   "maria-beatriz"
+  ],
+  [
+   "bruna-aranha",
+   "uemg"
+  ],
+  [
+   "camila-malloy",
+   "diego-lucas"
+  ],
+  [
+   "camila-malloy",
+   "eric-goulart"
+  ],
+  [
+   "camila-malloy",
+   "escola-de-design-da-uemg"
+  ],
+  [
+   "camila-malloy",
+   "gabriel-farace"
+  ],
+  [
+   "camila-malloy",
+   "julia-filgueiras"
+  ],
+  [
+   "camila-malloy",
+   "katia-malloy"
+  ],
+  [
+   "camila-malloy",
+   "mariana-malloy"
+  ],
+  [
+   "camila-malloy",
+   "ricardo-portilho"
+  ],
+  [
+   "camila-mesquita",
+   "gabriela-dias"
+  ],
+  [
+   "camila-mesquita",
+   "gabriela-lima"
+  ],
+  [
+   "camila-mesquita",
+   "igor-mariano"
+  ],
+  [
+   "camila-mesquita",
+   "larissa-marcella"
+  ],
+  [
+   "camila-mesquita",
+   "laura-leandra-lima"
+  ],
+  [
+   "camila-mesquita",
+   "luciane-almeida"
+  ],
+  [
+   "camila-mesquita",
+   "marcos-murillo"
+  ],
+  [
+   "camila-mesquita",
+   "mariana-malloy"
+  ],
+  [
+   "camila-mesquita",
+   "mateus-torres"
+  ],
+  [
+   "camila-mesquita",
+   "samuel-lopes"
+  ],
+  [
+   "camila-mesquita",
+   "thamara-carolina"
+  ],
+  [
+   "carol-leal",
+   "dce-ufmg"
+  ],
+  [
+   "carol-leal",
+   "iza-lourenca"
+  ],
+  [
+   "carol-leal",
+   "mariana-malloy"
+  ],
+  [
+   "carol-leal",
+   "marquinhos-do-sus"
+  ],
+  [
+   "carol-leal",
+   "raul-chaves"
+  ],
+  [
+   "ccbb-bh",
+   "joao-bicho"
+  ],
+  [
+   "ccbb-bh",
+   "lorena-vasconcellos"
+  ],
+  [
+   "ccbb-bh",
+   "marci-nuvem"
+  ],
+  [
+   "ccbb-bh",
+   "maria-beatriz"
+  ],
+  [
+   "ccbb-bh",
+   "melicio-britto"
+  ],
+  [
+   "ccbb-bh",
+   "yan-nicolas"
+  ],
+  [
+   "ccbb-bh",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "centro-umbandista-caboclo-pena-verde",
+   "dauane"
+  ],
+  [
+   "centro-umbandista-caboclo-pena-verde",
+   "gabriel-oliveira"
+  ],
+  [
+   "centro-umbandista-caboclo-pena-verde",
+   "gael-novaes"
+  ],
+  [
+   "centro-umbandista-caboclo-pena-verde",
+   "giovana-cougo"
+  ],
+  [
+   "centro-umbandista-caboclo-pena-verde",
+   "izabel-oliveira"
+  ],
+  [
+   "cicalt",
+   "helio-gramiscelli"
+  ],
+  [
+   "cicalt",
+   "joao-bicho"
+  ],
+  [
+   "cicalt",
+   "lorena-vasconcellos"
+  ],
+  [
+   "cicalt",
+   "lucas-de-pedro"
+  ],
+  [
+   "cicalt",
+   "mamutte"
+  ],
+  [
+   "cicalt",
+   "maria-beatriz"
+  ],
+  [
+   "clara-lins",
+   "gael-novaes"
+  ],
+  [
+   "clara-lins",
+   "giu"
+  ],
+  [
+   "clara-lins",
+   "permita-que-eu-fale"
+  ],
+  [
+   "clara-lins",
+   "uemg"
+  ],
+  [
+   "claudio-pai",
+   "dedel"
+  ],
+  [
+   "claudio-pai",
+   "gael-novaes"
+  ],
+  [
+   "claudio-pai",
+   "ivone-mae"
+  ],
+  [
+   "claudio-pai",
+   "partido-politico-pdt"
+  ],
+  [
+   "claudio-santos",
+   "escola-de-design-da-uemg"
+  ],
+  [
+   "claudio-santos",
+   "gael-novaes"
+  ],
+  [
+   "claudio-santos",
+   "ikaro-breny"
+  ],
+  [
+   "claudio-santos",
+   "joao-librelon"
+  ],
+  [
+   "claudio-santos",
+   "laura-leandra-lima"
+  ],
+  [
+   "claudio-santos",
+   "lorena-vasconcellos"
+  ],
+  [
+   "claudio-santos",
+   "mariana-malloy"
+  ],
+  [
+   "claudio-santos",
+   "mateus-torres"
+  ],
+  [
+   "claudio-santos",
+   "metamuseu"
+  ],
+  [
+   "claudio-santos",
+   "miguel-sena"
+  ],
+  [
+   "claudio-santos",
+   "paulo-cruz"
+  ],
+  [
+   "claudio-santos",
+   "ricardo-portilho"
+  ],
+  [
+   "claudio-santos",
+   "tipolab"
+  ],
+  [
+   "claudio-santos",
+   "uemg"
+  ],
+  [
+   "claudio-santos",
+   "yan-listz"
+  ],
+  [
+   "colegio-sao-joao-paulo-ii",
+   "dedel"
+  ],
+  [
+   "colegio-sao-joao-paulo-ii",
+   "gael-novaes"
+  ],
+  [
+   "curso-pro-federal-pre-vestibular",
+   "gael-novaes"
+  ],
+  [
+   "curso-pro-federal-pre-vestibular",
+   "giovana-cougo"
+  ],
+  [
+   "dauane",
+   "gael-novaes"
+  ],
+  [
+   "dauane",
+   "log-nature"
+  ],
+  [
+   "dauane",
+   "lohainne-lage"
+  ],
+  [
+   "davi-tameirao",
+   "igor-mariano"
+  ],
+  [
+   "davi-tameirao",
+   "laura-leandra-lima"
+  ],
+  [
+   "davi-tameirao",
+   "lorena-vasconcellos"
+  ],
+  [
+   "davi-tameirao",
+   "mateus-torres"
+  ],
+  [
+   "davi-tameirao",
+   "mysth"
+  ],
+  [
+   "davi-tameirao",
+   "sopa-pontos-dos-amigos"
+  ],
+  [
+   "david",
+   "gael-novaes"
+  ],
+  [
+   "david",
+   "giovana-cougo"
+  ],
+  [
+   "david",
+   "interact"
+  ],
+  [
+   "dce-ufmg",
+   "escola-de-musica-da-ufmg"
+  ],
+  [
+   "dce-ufmg",
+   "iza-lourenca"
+  ],
+  [
+   "dce-ufmg",
+   "mariana-malloy"
+  ],
+  [
+   "dce-ufmg",
+   "marquinhos-do-sus"
+  ],
+  [
+   "dce-ufmg",
+   "raul-chaves"
+  ],
+  [
+   "debora-salles",
+   "diego-lucas"
+  ],
+  [
+   "debora-salles",
+   "lais-alkmim"
+  ],
+  [
+   "debora-salles",
+   "leo-thebit"
+  ],
+  [
+   "debora-salles",
+   "mariana-malloy"
+  ],
+  [
+   "debora-salles",
+   "mayara-smith"
+  ],
+  [
+   "debora-salles",
+   "trembase"
+  ],
+  [
+   "dedel",
+   "gael-novaes"
+  ],
+  [
+   "dedel",
+   "ivone-mae"
+  ],
+  [
+   "dedel",
+   "tulio"
+  ],
+  [
+   "diego-lucas",
+   "eric-goulart"
+  ],
+  [
+   "diego-lucas",
+   "gabriel-farace"
+  ],
+  [
+   "diego-lucas",
+   "igor-mariano"
+  ],
+  [
+   "diego-lucas",
+   "ikaro-breny"
+  ],
+  [
+   "diego-lucas",
+   "lais-alkmim"
+  ],
+  [
+   "diego-lucas",
+   "lala-carvalho"
+  ],
+  [
+   "diego-lucas",
+   "laura-leandra-lima"
+  ],
+  [
+   "diego-lucas",
+   "leo-thebit"
+  ],
+  [
+   "diego-lucas",
+   "lorena-vasconcellos"
+  ],
+  [
+   "diego-lucas",
+   "lucas-chico"
+  ],
+  [
+   "diego-lucas",
+   "lucas-de-pedro"
+  ],
+  [
+   "diego-lucas",
+   "lucca-noacco"
+  ],
+  [
+   "diego-lucas",
+   "maria-beatriz"
+  ],
+  [
+   "diego-lucas",
+   "mariana-malloy"
+  ],
+  [
+   "diego-lucas",
+   "marquinhos-do-sus"
+  ],
+  [
+   "diego-lucas",
+   "mateus-torres"
+  ],
+  [
+   "diego-lucas",
+   "mayara-smith"
+  ],
+  [
+   "diego-lucas",
+   "miguel-sena"
+  ],
+  [
+   "diego-lucas",
+   "paulo-cruz"
+  ],
+  [
+   "diego-lucas",
+   "samuel-lopes"
+  ],
+  [
+   "diego-lucas",
+   "trembase"
+  ],
+  [
+   "diego-lucas",
+   "yan-listz"
+  ],
+  [
+   "dobrasil-livemarketing",
+   "gael-novaes"
+  ],
+  [
+   "dobrasil-livemarketing",
+   "lohainne-lage"
+  ],
+  [
+   "dobrasil-livemarketing",
+   "rafael-teixeira"
+  ],
+  [
+   "eric-goulart",
+   "mariana-malloy"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "gabriel-farace"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "ikaro-breny"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "julia-filgueiras"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "lala-carvalho"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "laura-leandra-lima"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "liga"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "lorena-vasconcellos"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "mariana-malloy"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "mateus-torres"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "miguel-sena"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "mnemopoiese"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "paulo-cruz"
+  ],
+  [
+   "escola-de-design-da-uemg",
+   "ricardo-portilho"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "fred-pedrosa"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "katia-malloy"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "lais-alkmim"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "leo-thebit"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "lucca-noacco"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "mariana-malloy"
+  ],
+  [
+   "escola-de-musica-da-ufmg",
+   "rafa-martini"
+  ],
+  [
+   "fred-pedrosa",
+   "mariana-malloy"
+  ],
+  [
+   "gabriel-farace",
+   "mariana-malloy"
+  ],
+  [
+   "gabriel-oliveira",
+   "gael-novaes"
+  ],
+  [
+   "gabriel-oliveira",
+   "giovana-cougo"
+  ],
+  [
+   "gabriel-oliveira",
+   "izabel-oliveira"
+  ],
+  [
+   "gabriel-oliveira",
+   "o-pao-e-a-palavra-da-vovo-maria-conga"
+  ],
+  [
+   "gabriel-oliveira",
+   "tiugabb-groomer"
+  ],
+  [
+   "gabriela-dias",
+   "igor-mariano"
+  ],
+  [
+   "gabriela-dias",
+   "laura-leandra-lima"
+  ],
+  [
+   "gabriela-dias",
+   "marcos-murillo"
+  ],
+  [
+   "gabriela-dias",
+   "thamara-carolina"
+  ],
+  [
+   "gabriela-lima",
+   "igor-mariano"
+  ],
+  [
+   "gabriela-lima",
+   "laura-leandra-lima"
+  ],
+  [
+   "gabriela-lima",
+   "lorena-vasconcellos"
+  ],
+  [
+   "gabriela-lima",
+   "luciane-almeida"
+  ],
+  [
+   "gabriela-lima",
+   "mateus-torres"
+  ],
+  [
+   "gabriela-lima",
+   "samuel-lopes"
+  ],
+  [
+   "gael-novaes",
+   "giovana-cougo"
+  ],
+  [
+   "gael-novaes",
+   "giovana-santos"
+  ],
+  [
+   "gael-novaes",
+   "giu"
+  ],
+  [
+   "gael-novaes",
+   "guilherme-viana"
+  ],
+  [
+   "gael-novaes",
+   "interact"
+  ],
+  [
+   "gael-novaes",
+   "ivone-mae"
+  ],
+  [
+   "gael-novaes",
+   "izabel-oliveira"
+  ],
+  [
+   "gael-novaes",
+   "joao-lessa"
+  ],
+  [
+   "gael-novaes",
+   "log-nature"
+  ],
+  [
+   "gael-novaes",
+   "lohainne-lage"
+  ],
+  [
+   "gael-novaes",
+   "ma-de-carvalho"
+  ],
+  [
+   "gael-novaes",
+   "marcelina-almeida"
+  ],
+  [
+   "gael-novaes",
+   "maria-cecilia"
+  ],
+  [
+   "gael-novaes",
+   "marilia-campos"
+  ],
+  [
+   "gael-novaes",
+   "mesa-de-buteco"
+  ],
+  [
+   "gael-novaes",
+   "mia-corda"
+  ],
+  [
+   "gael-novaes",
+   "nature-experiece"
+  ],
+  [
+   "gael-novaes",
+   "niltinho"
+  ],
+  [
+   "gael-novaes",
+   "o-pao-e-a-palavra-da-vovo-maria-conga"
+  ],
+  [
+   "gael-novaes",
+   "partido-politico-pdt"
+  ],
+  [
+   "gael-novaes",
+   "pedro"
+  ],
+  [
+   "gael-novaes",
+   "permita-que-eu-fale"
+  ],
+  [
+   "gael-novaes",
+   "rafael-teixeira"
+  ],
+  [
+   "gael-novaes",
+   "ricardo-portilho"
+  ],
+  [
+   "gael-novaes",
+   "sebraetec"
+  ],
+  [
+   "gael-novaes",
+   "shinho"
+  ],
+  [
+   "gael-novaes",
+   "tiugabb-groomer"
+  ],
+  [
+   "gael-novaes",
+   "tulio"
+  ],
+  [
+   "gael-novaes",
+   "uemg"
+  ],
+  [
+   "giovana-cougo",
+   "interact"
+  ],
+  [
+   "giovana-cougo",
+   "izabel-oliveira"
+  ],
+  [
+   "giovana-cougo",
+   "o-pao-e-a-palavra-da-vovo-maria-conga"
+  ],
+  [
+   "giovana-cougo",
+   "tiugabb-groomer"
+  ],
+  [
+   "giovana-cougo",
+   "uemg"
+  ],
+  [
+   "giovana-santos",
+   "maria-cecilia"
+  ],
+  [
+   "giovana-santos",
+   "uemg"
+  ],
+  [
+   "giu",
+   "permita-que-eu-fale"
+  ],
+  [
+   "giu",
+   "uemg"
+  ],
+  [
+   "guilherme-viana",
+   "pedro"
+  ],
+  [
+   "guilherme-viana",
+   "tulio"
+  ],
+  [
+   "helio-gramiscelli",
+   "joao-bicho"
+  ],
+  [
+   "helio-gramiscelli",
+   "lorena-vasconcellos"
+  ],
+  [
+   "helio-gramiscelli",
+   "lucas-de-pedro"
+  ],
+  [
+   "helio-gramiscelli",
+   "mamutte"
+  ],
+  [
+   "helio-gramiscelli",
+   "maria-beatriz"
+  ],
+  [
+   "igor-mariano",
+   "ikaro-breny"
+  ],
+  [
+   "igor-mariano",
+   "larissa-marcella"
+  ],
+  [
+   "igor-mariano",
+   "laura-leandra-lima"
+  ],
+  [
+   "igor-mariano",
+   "liga"
+  ],
+  [
+   "igor-mariano",
+   "lorena-abreu"
+  ],
+  [
+   "igor-mariano",
+   "lorena-vasconcellos"
+  ],
+  [
+   "igor-mariano",
+   "lucas-chico"
+  ],
+  [
+   "igor-mariano",
+   "lucas-de-pedro"
+  ],
+  [
+   "igor-mariano",
+   "marcos-murillo"
+  ],
+  [
+   "igor-mariano",
+   "maria-beatriz"
+  ],
+  [
+   "igor-mariano",
+   "mariana-malloy"
+  ],
+  [
+   "igor-mariano",
+   "mateus-torres"
+  ],
+  [
+   "igor-mariano",
+   "miguel-sena"
+  ],
+  [
+   "igor-mariano",
+   "paulo-cruz"
+  ],
+  [
+   "igor-mariano",
+   "rayane-rosetti"
+  ],
+  [
+   "igor-mariano",
+   "samuel-lopes"
+  ],
+  [
+   "igor-mariano",
+   "sopa-pontos-dos-amigos"
+  ],
+  [
+   "igor-mariano",
+   "thamara-carolina"
+  ],
+  [
+   "igor-mariano",
+   "victor-lauar"
+  ],
+  [
+   "ikaro-breny",
+   "laura-leandra-lima"
+  ],
+  [
+   "ikaro-breny",
+   "liga"
+  ],
+  [
+   "ikaro-breny",
+   "lorena-vasconcellos"
+  ],
+  [
+   "ikaro-breny",
+   "lucas-de-pedro"
+  ],
+  [
+   "ikaro-breny",
+   "mamutte"
+  ],
+  [
+   "ikaro-breny",
+   "maria-beatriz"
+  ],
+  [
+   "ikaro-breny",
+   "mariana-malloy"
+  ],
+  [
+   "ikaro-breny",
+   "mateus-torres"
+  ],
+  [
+   "ikaro-breny",
+   "miguel-sena"
+  ],
+  [
+   "ikaro-breny",
+   "mysth"
+  ],
+  [
+   "ikaro-breny",
+   "paulo-cruz"
+  ],
+  [
+   "ikaro-breny",
+   "ricardo-portilho"
+  ],
+  [
+   "ikaro-breny",
+   "samuel-lopes"
+  ],
+  [
+   "ikaro-breny",
+   "uemg"
+  ],
+  [
+   "in-sujeito",
+   "lorena-vasconcellos"
+  ],
+  [
+   "in-sujeito",
+   "lucas-chico"
+  ],
+  [
+   "in-sujeito",
+   "mateus-torres"
+  ],
+  [
+   "in-sujeito",
+   "paulo-cruz"
+  ],
+  [
+   "in-sujeito",
+   "samuel-lopes"
+  ],
+  [
+   "iza-lourenca",
+   "mariana-malloy"
+  ],
+  [
+   "iza-lourenca",
+   "marquinhos-do-sus"
+  ],
+  [
+   "iza-lourenca",
+   "raul-chaves"
+  ],
+  [
+   "izabel-oliveira",
+   "o-pao-e-a-palavra-da-vovo-maria-conga"
+  ],
+  [
+   "izabel-oliveira",
+   "tiugabb-groomer"
+  ],
+  [
+   "joao-bicho",
+   "lorena-vasconcellos"
+  ],
+  [
+   "joao-bicho",
+   "mamutte"
+  ],
+  [
+   "joao-bicho",
+   "marci-nuvem"
+  ],
+  [
+   "joao-bicho",
+   "maria-beatriz"
+  ],
+  [
+   "joao-bicho",
+   "melicio-britto"
+  ],
+  [
+   "joao-bicho",
+   "yan-nicolas"
+  ],
+  [
+   "joao-bicho",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "joao-lessa",
+   "log-nature"
+  ],
+  [
+   "joao-lessa",
+   "shinho"
+  ],
+  [
+   "joao-lessa",
+   "uemg"
+  ],
+  [
+   "joao-librelon",
+   "laura-leandra-lima"
+  ],
+  [
+   "joao-librelon",
+   "lavinia-carvalho"
+  ],
+  [
+   "joao-librelon",
+   "levi-dias"
+  ],
+  [
+   "joao-librelon",
+   "liga"
+  ],
+  [
+   "joao-librelon",
+   "lorena-vasconcellos"
+  ],
+  [
+   "joao-librelon",
+   "luisa-magalhaes"
+  ],
+  [
+   "joao-librelon",
+   "mateus-torres"
+  ],
+  [
+   "joao-librelon",
+   "paulo-cruz"
+  ],
+  [
+   "joao-librelon",
+   "ronald-souza"
+  ],
+  [
+   "joao-librelon",
+   "samuel-cesar"
+  ],
+  [
+   "joao-librelon",
+   "sol-quaresma"
+  ],
+  [
+   "julia-filgueiras",
+   "mariana-malloy"
+  ],
+  [
+   "katia-malloy",
+   "mariana-malloy"
+  ],
+  [
+   "lais-alkmim",
+   "leo-thebit"
+  ],
+  [
+   "lais-alkmim",
+   "mariana-malloy"
+  ],
+  [
+   "lais-alkmim",
+   "rafa-martini"
+  ],
+  [
+   "lala-carvalho",
+   "mariana-malloy"
+  ],
+  [
+   "lala-carvalho",
+   "yan-listz"
+  ],
+  [
+   "larissa-marcella",
+   "laura-leandra-lima"
+  ],
+  [
+   "larissa-marcella",
+   "lorena-vasconcellos"
+  ],
+  [
+   "larissa-marcella",
+   "mariana-malloy"
+  ],
+  [
+   "larissa-marcella",
+   "mateus-torres"
+  ],
+  [
+   "laura-leandra-lima",
+   "lavinia-carvalho"
+  ],
+  [
+   "laura-leandra-lima",
+   "levi-dias"
+  ],
+  [
+   "laura-leandra-lima",
+   "liga"
+  ],
+  [
+   "laura-leandra-lima",
+   "lorena-abreu"
+  ],
+  [
+   "laura-leandra-lima",
+   "lorena-vasconcellos"
+  ],
+  [
+   "laura-leandra-lima",
+   "lucas-chico"
+  ],
+  [
+   "laura-leandra-lima",
+   "lucas-de-pedro"
+  ],
+  [
+   "laura-leandra-lima",
+   "luisa-lorentz"
+  ],
+  [
+   "laura-leandra-lima",
+   "luisa-magalhaes"
+  ],
+  [
+   "laura-leandra-lima",
+   "luiza-lavis"
+  ],
+  [
+   "laura-leandra-lima",
+   "marcela-vereza"
+  ],
+  [
+   "laura-leandra-lima",
+   "marcos-murillo"
+  ],
+  [
+   "laura-leandra-lima",
+   "maria-beatriz"
+  ],
+  [
+   "laura-leandra-lima",
+   "mariana-lavis"
+  ],
+  [
+   "laura-leandra-lima",
+   "mariana-malloy"
+  ],
+  [
+   "laura-leandra-lima",
+   "mariana-vereza"
+  ],
+  [
+   "laura-leandra-lima",
+   "mateus-torres"
+  ],
+  [
+   "laura-leandra-lima",
+   "miguel-sena"
+  ],
+  [
+   "laura-leandra-lima",
+   "mnemopoiese"
+  ],
+  [
+   "laura-leandra-lima",
+   "paulo-cruz"
+  ],
+  [
+   "laura-leandra-lima",
+   "rayane-rosetti"
+  ],
+  [
+   "laura-leandra-lima",
+   "ricardo-portilho"
+  ],
+  [
+   "laura-leandra-lima",
+   "ronald-souza"
+  ],
+  [
+   "laura-leandra-lima",
+   "samuel-cesar"
+  ],
+  [
+   "laura-leandra-lima",
+   "samuel-lopes"
+  ],
+  [
+   "laura-leandra-lima",
+   "sol-quaresma"
+  ],
+  [
+   "laura-leandra-lima",
+   "sopa-pontos-dos-amigos"
+  ],
+  [
+   "laura-leandra-lima",
+   "thamara-carolina"
+  ],
+  [
+   "laura-leandra-lima",
+   "tipolab"
+  ],
+  [
+   "laura-leandra-lima",
+   "uemg"
+  ],
+  [
+   "laura-leandra-lima",
+   "victor-lauar"
+  ],
+  [
+   "lavinia-carvalho",
+   "levi-dias"
+  ],
+  [
+   "lavinia-carvalho",
+   "liga"
+  ],
+  [
+   "lavinia-carvalho",
+   "lorena-vasconcellos"
+  ],
+  [
+   "lavinia-carvalho",
+   "luisa-magalhaes"
+  ],
+  [
+   "lavinia-carvalho",
+   "mateus-torres"
+  ],
+  [
+   "lavinia-carvalho",
+   "paulo-cruz"
+  ],
+  [
+   "lavinia-carvalho",
+   "ronald-souza"
+  ],
+  [
+   "lavinia-carvalho",
+   "samuel-cesar"
+  ],
+  [
+   "lavinia-carvalho",
+   "sol-quaresma"
+  ],
+  [
+   "leo-thebit",
+   "mariana-malloy"
+  ],
+  [
+   "leo-thebit",
+   "mayara-smith"
+  ],
+  [
+   "leo-thebit",
+   "rafa-martini"
+  ],
+  [
+   "leo-thebit",
+   "trembase"
+  ],
+  [
+   "levi-dias",
+   "liga"
+  ],
+  [
+   "levi-dias",
+   "lorena-vasconcellos"
+  ],
+  [
+   "levi-dias",
+   "luisa-magalhaes"
+  ],
+  [
+   "levi-dias",
+   "mateus-torres"
+  ],
+  [
+   "levi-dias",
+   "paulo-cruz"
+  ],
+  [
+   "levi-dias",
+   "ronald-souza"
+  ],
+  [
+   "levi-dias",
+   "samuel-cesar"
+  ],
+  [
+   "levi-dias",
+   "sol-quaresma"
+  ],
+  [
+   "liga",
+   "lorena-vasconcellos"
+  ],
+  [
+   "liga",
+   "lucas-de-pedro"
+  ],
+  [
+   "liga",
+   "luisa-magalhaes"
+  ],
+  [
+   "liga",
+   "mariana-malloy"
+  ],
+  [
+   "liga",
+   "mateus-torres"
+  ],
+  [
+   "liga",
+   "miguel-sena"
+  ],
+  [
+   "liga",
+   "paulo-cruz"
+  ],
+  [
+   "liga",
+   "ronald-souza"
+  ],
+  [
+   "liga",
+   "samuel-cesar"
+  ],
+  [
+   "liga",
+   "sol-quaresma"
+  ],
+  [
+   "log-nature",
+   "nature-experiece"
+  ],
+  [
+   "log-nature",
+   "uemg"
+  ],
+  [
+   "lorena-abreu",
+   "rayane-rosetti"
+  ],
+  [
+   "lorena-vasconcellos",
+   "lucas-chico"
+  ],
+  [
+   "lorena-vasconcellos",
+   "lucas-de-pedro"
+  ],
+  [
+   "lorena-vasconcellos",
+   "luisa-magalhaes"
+  ],
+  [
+   "lorena-vasconcellos",
+   "mamutte"
+  ],
+  [
+   "lorena-vasconcellos",
+   "marci-nuvem"
+  ],
+  [
+   "lorena-vasconcellos",
+   "maria-beatriz"
+  ],
+  [
+   "lorena-vasconcellos",
+   "mariana-malloy"
+  ],
+  [
+   "lorena-vasconcellos",
+   "mateus-torres"
+  ],
+  [
+   "lorena-vasconcellos",
+   "melicio-britto"
+  ],
+  [
+   "lorena-vasconcellos",
+   "metamuseu"
+  ],
+  [
+   "lorena-vasconcellos",
+   "miguel-sena"
+  ],
+  [
+   "lorena-vasconcellos",
+   "mysth"
+  ],
+  [
+   "lorena-vasconcellos",
+   "paulo-cruz"
+  ],
+  [
+   "lorena-vasconcellos",
+   "ricardo-portilho"
+  ],
+  [
+   "lorena-vasconcellos",
+   "ronald-souza"
+  ],
+  [
+   "lorena-vasconcellos",
+   "samuel-cesar"
+  ],
+  [
+   "lorena-vasconcellos",
+   "samuel-lopes"
+  ],
+  [
+   "lorena-vasconcellos",
+   "sol-quaresma"
+  ],
+  [
+   "lorena-vasconcellos",
+   "uemg"
+  ],
+  [
+   "lorena-vasconcellos",
+   "yan-nicolas"
+  ],
+  [
+   "lorena-vasconcellos",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "lucas-chico",
+   "lucas-de-pedro"
+  ],
+  [
+   "lucas-chico",
+   "maria-beatriz"
+  ],
+  [
+   "lucas-chico",
+   "mariana-malloy"
+  ],
+  [
+   "lucas-chico",
+   "mateus-torres"
+  ],
+  [
+   "lucas-chico",
+   "mysth"
+  ],
+  [
+   "lucas-chico",
+   "samuel-lopes"
+  ],
+  [
+   "lucas-de-pedro",
+   "mamutte"
+  ],
+  [
+   "lucas-de-pedro",
+   "maria-beatriz"
+  ],
+  [
+   "lucas-de-pedro",
+   "mariana-malloy"
+  ],
+  [
+   "lucas-de-pedro",
+   "mateus-torres"
+  ],
+  [
+   "lucas-de-pedro",
+   "miguel-sena"
+  ],
+  [
+   "lucas-de-pedro",
+   "mysth"
+  ],
+  [
+   "lucas-de-pedro",
+   "paulo-cruz"
+  ],
+  [
+   "lucas-de-pedro",
+   "samuel-lopes"
+  ],
+  [
+   "lucas-de-pedro",
+   "uemg"
+  ],
+  [
+   "lucca-noacco",
+   "mariana-malloy"
+  ],
+  [
+   "lucca-noacco",
+   "rafa-martini"
+  ],
+  [
+   "luciane-almeida",
+   "mateus-torres"
+  ],
+  [
+   "luciane-almeida",
+   "samuel-lopes"
+  ],
+  [
+   "luis-matuto",
+   "mariana-malloy"
+  ],
+  [
+   "luis-matuto",
+   "ricardo-portilho"
+  ],
+  [
+   "luisa-lorentz",
+   "luiza-lavis"
+  ],
+  [
+   "luisa-lorentz",
+   "mariana-lavis"
+  ],
+  [
+   "luisa-magalhaes",
+   "mateus-torres"
+  ],
+  [
+   "luisa-magalhaes",
+   "paulo-cruz"
+  ],
+  [
+   "luisa-magalhaes",
+   "ronald-souza"
+  ],
+  [
+   "luisa-magalhaes",
+   "samuel-cesar"
+  ],
+  [
+   "luisa-magalhaes",
+   "sol-quaresma"
+  ],
+  [
+   "luiza-lavis",
+   "mariana-lavis"
+  ],
+  [
+   "ma-de-carvalho",
+   "uemg"
+  ],
+  [
+   "mamutte",
+   "marci-nuvem"
+  ],
+  [
+   "mamutte",
+   "maria-beatriz"
+  ],
+  [
+   "mamutte",
+   "mateus-torres"
+  ],
+  [
+   "mamutte",
+   "uemg"
+  ],
+  [
+   "marcela-vereza",
+   "mariana-vereza"
+  ],
+  [
+   "marcelina-almeida",
+   "uemg"
+  ],
+  [
+   "marci-nuvem",
+   "maria-beatriz"
+  ],
+  [
+   "marci-nuvem",
+   "melicio-britto"
+  ],
+  [
+   "marci-nuvem",
+   "yan-nicolas"
+  ],
+  [
+   "marci-nuvem",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "marcos-murillo",
+   "thamara-carolina"
+  ],
+  [
+   "maria-beatriz",
+   "mariana-malloy"
+  ],
+  [
+   "maria-beatriz",
+   "mateus-torres"
+  ],
+  [
+   "maria-beatriz",
+   "melicio-britto"
+  ],
+  [
+   "maria-beatriz",
+   "miguel-sena"
+  ],
+  [
+   "maria-beatriz",
+   "paulo-cruz"
+  ],
+  [
+   "maria-beatriz",
+   "samuel-lopes"
+  ],
+  [
+   "maria-beatriz",
+   "uemg"
+  ],
+  [
+   "maria-beatriz",
+   "yan-nicolas"
+  ],
+  [
+   "maria-beatriz",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "maria-cecilia",
+   "uemg"
+  ],
+  [
+   "mariana-malloy",
+   "marquinhos-do-sus"
+  ],
+  [
+   "mariana-malloy",
+   "mateus-torres"
+  ],
+  [
+   "mariana-malloy",
+   "mayara-smith"
+  ],
+  [
+   "mariana-malloy",
+   "miguel-sena"
+  ],
+  [
+   "mariana-malloy",
+   "mnemopoiese"
+  ],
+  [
+   "mariana-malloy",
+   "mysth"
+  ],
+  [
+   "mariana-malloy",
+   "paulo-cruz"
+  ],
+  [
+   "mariana-malloy",
+   "rafa-martini"
+  ],
+  [
+   "mariana-malloy",
+   "raul-chaves"
+  ],
+  [
+   "mariana-malloy",
+   "ricardo-portilho"
+  ],
+  [
+   "mariana-malloy",
+   "samuel-lopes"
+  ],
+  [
+   "mariana-malloy",
+   "trembase"
+  ],
+  [
+   "mariana-malloy",
+   "uemg"
+  ],
+  [
+   "mariana-malloy",
+   "yan-listz"
+  ],
+  [
+   "marilia-campos",
+   "sebraetec"
+  ],
+  [
+   "marilia-campos",
+   "shinho"
+  ],
+  [
+   "marquinhos-do-sus",
+   "raul-chaves"
+  ],
+  [
+   "mateus-torres",
+   "metamuseu"
+  ],
+  [
+   "mateus-torres",
+   "miguel-sena"
+  ],
+  [
+   "mateus-torres",
+   "mysth"
+  ],
+  [
+   "mateus-torres",
+   "paulo-cruz"
+  ],
+  [
+   "mateus-torres",
+   "ricardo-portilho"
+  ],
+  [
+   "mateus-torres",
+   "ronald-souza"
+  ],
+  [
+   "mateus-torres",
+   "samuel-cesar"
+  ],
+  [
+   "mateus-torres",
+   "samuel-lopes"
+  ],
+  [
+   "mateus-torres",
+   "sol-quaresma"
+  ],
+  [
+   "mateus-torres",
+   "sopa-pontos-dos-amigos"
+  ],
+  [
+   "mateus-torres",
+   "tipolab"
+  ],
+  [
+   "mateus-torres",
+   "uemg"
+  ],
+  [
+   "melicio-britto",
+   "yan-nicolas"
+  ],
+  [
+   "melicio-britto",
+   "yan-rodrigues-yor"
+  ],
+  [
+   "mesa-de-buteco",
+   "mia-corda"
+  ],
+  [
+   "mesa-de-buteco",
+   "niltinho"
+  ],
+  [
+   "mia-corda",
+   "niltinho"
+  ],
+  [
+   "miguel-sena",
+   "paulo-cruz"
+  ],
+  [
+   "miguel-sena",
+   "samuel-lopes"
+  ],
+  [
+   "miguel-sena",
+   "uemg"
+  ],
+  [
+   "mnemopoiese",
+   "ricardo-portilho"
+  ],
+  [
+   "mysth",
+   "samuel-lopes"
+  ],
+  [
+   "paulo-cruz",
+   "ricardo-portilho"
+  ],
+  [
+   "paulo-cruz",
+   "ronald-souza"
+  ],
+  [
+   "paulo-cruz",
+   "samuel-cesar"
+  ],
+  [
+   "paulo-cruz",
+   "samuel-lopes"
+  ],
+  [
+   "paulo-cruz",
+   "sol-quaresma"
+  ],
+  [
+   "paulo-cruz",
+   "uemg"
+  ],
+  [
+   "pedro",
+   "tulio"
+  ],
+  [
+   "permita-que-eu-fale",
+   "uemg"
+  ],
+  [
+   "ricardo-portilho",
+   "tipolab"
+  ],
+  [
+   "ricardo-portilho",
+   "uemg"
+  ],
+  [
+   "ronald-souza",
+   "samuel-cesar"
+  ],
+  [
+   "ronald-souza",
+   "sol-quaresma"
+  ],
+  [
+   "samuel-cesar",
+   "sol-quaresma"
+  ],
+  [
+   "shinho",
+   "uemg"
+  ],
+  [
+   "yan-nicolas",
+   "yan-rodrigues-yor"
+  ]
+ ]
+}

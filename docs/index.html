@@ -1,0 +1,119 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Rede Coletiva</title>
+<style>
+:root{--bg:#f4f5f7;--fg:#1b1d24;--mut:#5b606b;--pn:#fff;--ln:#d9dce2;--ring:#1b1d24;--edge:#8a8f98}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#14151b;--fg:#e9eaee;--mut:#9aa0ac;--pn:#1d1f27;--ln:#2c2f3a;--ring:#ffffffcc;--edge:#7b8190}}
+:root[data-theme=dark]{--bg:#14151b;--fg:#e9eaee;--mut:#9aa0ac;--pn:#1d1f27;--ln:#2c2f3a;--ring:#ffffffcc;--edge:#7b8190}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--fg);display:flex;flex-direction:column}
+header{display:flex;gap:8px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--ln);background:var(--pn)}
+h1{font:600 18px Georgia,serif;margin:0;white-space:nowrap}#st{color:var(--mut);font-size:13px;white-space:nowrap;margin-left:4px}
+#q{flex:1;min-width:0;max-width:340px;margin-left:auto;padding:7px 10px;border:1px solid var(--ln);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit}
+button{font:inherit;color:inherit;cursor:pointer}header button{border:1px solid var(--ln);background:none;border-radius:6px;padding:5px 9px;white-space:nowrap}
+#ex.sujo{border-color:var(--fg);font-weight:600}
+main{flex:1;position:relative;min-height:0;overflow:hidden}canvas{width:100%;height:100%;display:block;touch-action:none}
+#leg{position:absolute;left:12px;bottom:12px;display:flex;flex-direction:column;gap:2px;background:var(--pn);border:1px solid var(--ln);border-radius:8px;padding:6px;max-width:220px}
+#leg button{display:flex;align-items:center;gap:8px;border:0;background:none;padding:3px 6px;border-radius:5px;text-align:left;font-size:13px}
+#leg button:hover{background:var(--bg)}#leg i{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 0 1.5px var(--ring)}
+#leg small{margin-left:auto;color:var(--mut)}#leg .off{opacity:.4;text-decoration:line-through}
+#panel{position:absolute;top:0;right:0;bottom:0;width:min(400px,100%);background:var(--pn);border-left:1px solid var(--ln);padding:18px 20px;overflow:auto;transform:translateX(100%);transition:transform .2s}
+#panel.open{transform:none}#x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;color:var(--mut)}
+#panel h2{font:600 22px Georgia,serif;margin:0 28px 8px 0}#panel h3{font-size:14px;margin:18px 0 4px;color:var(--mut)}
+#panel ul{margin:0;padding-left:18px}#panel blockquote{margin:6px 0;padding-left:10px;border-left:3px solid var(--ln);color:var(--mut)}
+#panel a{color:inherit;text-decoration-color:var(--mut)}.chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.chips span{font-size:12px;border:1px solid var(--ln);border-radius:99px;padding:1px 9px;color:var(--mut)}.dica{color:var(--mut);font-size:13px}
+#panel label{display:block;margin:10px 0 2px;font-size:13px;color:var(--mut)}
+#panel input,#panel textarea{width:100%;padding:7px 9px;border:1px solid var(--ln);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit}
+#panel fieldset{border:1px solid var(--ln);border-radius:6px;margin:12px 0 0;padding:4px 10px 10px}#panel legend{font-size:13px;color:var(--mut);padding:0 4px}
+.cks label{display:inline-flex;gap:5px;align-items:center;margin:2px 10px 2px 0;color:var(--fg)}.cks input,#f_rc{width:auto!important;padding:0!important}
+#f_ok{margin-top:14px;padding:8px 16px;border:0;border-radius:6px;background:var(--fg);color:var(--bg);font-weight:600}#f_msg{margin-top:10px;font-size:13px;color:#c0392b}
+#erro{position:absolute;inset:0;display:none;align-items:center;justify-content:center;padding:20px;z-index:5;background:var(--bg)}
+#erro div{max-width:480px;background:var(--pn);border:1px solid var(--ln);border-radius:10px;padding:20px}#erro code{background:var(--bg);padding:1px 5px;border-radius:4px}
+#toast{position:absolute;left:50%;top:14px;transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;display:none;z-index:6;max-width:90%}
+@media(max-width:700px){header{flex-wrap:wrap}#st{display:none}#panel{top:auto;height:60%;width:100%;border-left:0;border-top:1px solid var(--ln);transform:translateY(100%)}#leg{max-width:170px;font-size:12px}}
+</style></head><body>
+<header><h1 id="ti">Rede Coletiva</h1><span id="st"></span><input id="q" type="search" placeholder="Buscar nome, área ou cidade" aria-label="Buscar">
+<button id="ad" title="Adicionar nó">＋ Nó</button><button id="ex" title="Baixar rede.json atualizado">⤓ rede.json</button><button id="rs" title="Recentralizar" aria-label="Recentralizar">⤢</button><button id="th" title="Alternar tema" aria-label="Alternar tema">◐</button></header>
+<main><canvas id="cv" aria-label="Grafo da rede"></canvas><div id="leg"></div><aside id="panel"></aside><div id="toast"></div>
+<div id="erro"><div><b>Não consegui carregar o rede.json.</b><p>Se você abriu o arquivo direto do computador, o navegador bloqueia a leitura. Rode <code>python -m http.server</code> dentro da pasta do site e abra <code>http://localhost:8000</code>, ou escolha o arquivo aqui:</p><input id="arq" type="file" accept=".json,application/json"></div></div></main>
+<script>
+const $=id=>document.getElementById(id),nz=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/["']/g,'').replace(/\s+/g,' ').trim();
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),slug=s=>nz(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'n';
+const cv=$('cv'),cx=cv.getContext('2d'),P=$('panel'),Q=$('q'),hid=new Set(),V={x:0,y:0,k:.8},css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let D=null,N=[],L=[],adj=[],ix={},W,H,dpr,alpha=1,sel=null,hov=null,dirty=0,pronto=false;
+function size(){dpr=devicePixelRatio||1;W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr}addEventListener('resize',size);size();
+function casa(q,n){q=q.trim();let m=q.match(/^tag:#?(\S+)$/);if(m)return(n.tags||[]).some(t=>t==m[1]||t.startsWith(m[1]+'/'));m=q.match(/^file:"?(.+?)"?$/);return m?nz(m[1])==nz(n.nome):false}
+function rebuild(){ix={};N.forEach((n,i)=>{n.i=i;ix[n.id]=i});L=[];adj=N.map(()=>[]);const seen=new Set();
+D.ligacoes.forEach(([a,b])=>{const i=ix[a],j=ix[b];if(i==null||j==null||i==j)return;const k=i<j?i+'_'+j:j+'_'+i;if(seen.has(k))return;seen.add(k);L.push([i,j]);adj[i].push(j);adj[j].push(i)});
+N.forEach(n=>{n.d=adj[n.i].length;n.rad=3.5+Math.sqrt(n.d)*1.25;n.t=nz([n.nome,n.ocupacao,...(n.areas||[]),...(n.locais||[])].join(' '));
+const r=D.regras.find(r=>casa(r.q,n)),c=r?r.c:'#8a8f98';let g=D.legenda.findIndex(l=>l.c==c);if(g<0){D.legenda.push({l:r?r.q:'Sem grupo de cor',c});g=D.legenda.length-1}n.g=g});
+N.forEach(n=>{if(n.x==null){const nb=adj[n.i].map(j=>N[j]).filter(m=>m.x!=null);let x,y;if(nb.length){x=nb.reduce((s,m)=>s+m.x,0)/nb.length;y=nb.reduce((s,m)=>s+m.y,0)/nb.length}else{const t=Math.random()*6.283,r=200+Math.random()*250;x=Math.cos(t)*r;y=Math.sin(t)*r}n.x=x+(Math.random()-.5)*30;n.y=y+(Math.random()-.5)*30;n.vx=n.vy=0}});
+legenda();$('st').textContent=N.length+' nós · '+L.length+' ligações';$('ex').classList.toggle('sujo',dirty>0);$('ex').textContent='⤓ rede.json'+(dirty?' ('+dirty+')':'')}
+function legenda(){const c=D.legenda.map(()=>0);N.forEach(n=>c[n.g]++);$('leg').innerHTML=D.legenda.map((g,i)=>c[i]?`<button data-g="${i}" class="${hid.has(i)?'off':''}"><i style="background:${esc(g.c)}"></i>${esc(g.l)}<small>${c[i]}</small></button>`:'').join('')}
+function tick(){for(let i=0;i<N.length;i++){const a=N[i];for(let j=i+1;j<N.length;j++){const b=N[j],dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+.1;if(d2<250000){const f=1200*alpha/d2;a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f}}}
+L.forEach(([i,j])=>{const a=N[i],b=N[j],dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy)||1,f=(d-80)*.03*alpha/d;a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f});
+N.forEach(n=>{n.vx-=n.x*.012*alpha;n.vy-=n.y*.012*alpha;n.vx=Math.max(-30,Math.min(30,n.vx*.6));n.vy=Math.max(-30,Math.min(30,n.vy*.6));if(n.fx==null){n.x+=n.vx;n.y+=n.vy}});alpha*=.985}
+const fit=()=>{if(!N.length)return;const m=Math.max(...N.map(n=>Math.hypot(n.x,n.y)+n.rad));V.x=V.y=0;V.k=Math.min(1,Math.min(W,H)/(2*m+40))};
+const wx=x=>(x-W/2-V.x)/V.k,wy=y=>(y-H/2-V.y)/V.k;
+function draw(){if(pronto){if(alpha>.02)tick();cx.setTransform(1,0,0,1,0,0);cx.clearRect(0,0,cv.width,cv.height);cx.setTransform(dpr*V.k,0,0,dpr*V.k,dpr*(V.x+W/2),dpr*(V.y+H/2));
+const f=sel??hov,nb=f!=null?new Set([f,...adj[f]]):null,qs=nz(Q.value.trim()),on=n=>(!nb||nb.has(n.i))&&(!qs||n.t.includes(qs)),vis=n=>!hid.has(n.g),edge=css('--edge'),fg=css('--fg'),bg=css('--bg'),ring=css('--ring');
+cx.lineWidth=1/V.k;L.forEach(([i,j])=>{const a=N[i],b=N[j];if(!vis(a)||!vis(b))return;const hot=f!=null&&(i==f||j==f);cx.globalAlpha=hot?.9:(nb||qs)?.06:.3;cx.strokeStyle=hot?fg:edge;cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(b.x,b.y);cx.stroke()});
+N.forEach(n=>{if(!vis(n))return;cx.globalAlpha=on(n)?1:.12;cx.beginPath();cx.arc(n.x,n.y,n.rad,0,7);cx.fillStyle=D.legenda[n.g].c;cx.fill();cx.lineWidth=(n.i==sel?2.5:1.2)/V.k;cx.strokeStyle=ring;cx.stroke()});
+cx.textAlign='center';cx.font=`${12/V.k}px system-ui,sans-serif`;cx.lineJoin='round';
+N.forEach(n=>{if(!vis(n)||!on(n)||!(n.d>=18||V.k>1.4||n.i==f||(nb&&nb.has(n.i))||qs))return;cx.globalAlpha=1;cx.lineWidth=3/V.k;cx.strokeStyle=bg;cx.strokeText(n.nome,n.x,n.y+n.rad+12/V.k);cx.fillStyle=fg;cx.fillText(n.nome,n.x,n.y+n.rad+12/V.k)})}
+requestAnimationFrame(draw)}
+const pick=(mx,my)=>{const x=wx(mx),y=wy(my);let b=null,bd=1e9;N.forEach(n=>{if(hid.has(n.g))return;const d=Math.hypot(n.x-x,n.y-y);if(d<Math.max(n.rad+4,10/V.k)&&d<bd){b=n;bd=d}});return b};
+function reveal(n,f){const m=matchMedia('(max-width:700px)').matches,pw=m?0:Math.min(400,W),ph=m?H*.6:0,sx=W/2+V.x+n.x*V.k,sy=H/2+V.y+n.y*V.k;
+if(f||sx>W-pw-30||sy>H-ph-30||sx<30||sy<30){V.x=(W-pw)/2-W/2-n.x*V.k;V.y=(H-ph)/2-H/2-n.y*V.k}}
+function ficha(n){const ind=(n.indicado_por||[]).map(id=>N[ix[id]]).filter(Boolean),indicou=N.filter(m=>(m.indicado_por||[]).includes(n.id)),ex=new Set([...ind,...indicou].map(m=>m.i)),con=adj[n.i].map(j=>N[j]).filter(m=>!ex.has(m.i));
+const a=m=>`<li><a href="#/n/${esc(m.id)}" data-n="${esc(m.id)}">${esc(m.nome)}</a></li>`,sec=(t,l)=>l.length?`<h3>${t} (${l.length})</h3><ul>${l.sort((x,y)=>x.nome.localeCompare(y.nome)).map(a).join('')}</ul>`:'',
+site=s=>/^https?:\/\//i.test(s)?`<a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a>`:esc(s),li=(t,v)=>v?`<li><b>${t}:</b> ${v}</li>`:'';
+return `<button id="x" aria-label="Fechar">×</button><h2>${esc(n.nome)}</h2><div class="chips">${(n.redes||[]).map(r=>`<span>${esc(r)}</span>`).join('')}</div>`+(n.ocupacao?`<blockquote>${esc(n.ocupacao)}</blockquote>`:'')
++(n.tipo=='citado'?'<p class="dica">Citado(a) por outros nós, sem dados próprios ainda.</p>':'')
++`<ul>${li('Área',(n.areas||[]).map(esc).join(', '))}${li('Localização',(n.locais||[]).map(esc).join(', '))}${(n.sites||[]).map(s=>li('Site',site(s))).join('')}</ul>`+sec('Indicado por',ind)+sec('Conexões',con)+sec('Indicou',indicou)}
+function select(i,center){sel=i;if(i==null){P.classList.remove('open');if(location.hash)location.hash='';return}const n=N[i];P.innerHTML=ficha(n);P.classList.add('open');P.scrollTop=0;if(location.hash!=='#/n/'+n.id)location.hash='#/n/'+n.id;reveal(n,center)}
+function abrirForm(){sel=null;if(location.hash)location.hash='';const redes=[...new Set(N.flatMap(n=>n.redes||[]))].sort();
+P.innerHTML=`<button id="x" aria-label="Fechar">×</button><h2>Adicionar nó</h2><p class="dica">Fica só na sua tela até você baixar o rede.json e substituir o do site.</p>
+<label for="f_nome">Nome *</label><input id="f_nome" autocomplete="off"><label for="f_oc">Ocupação</label><input id="f_oc"><label for="f_ar">Áreas (separe por vírgula)</label><input id="f_ar">
+<label for="f_lo">Localização</label><input id="f_lo" placeholder="Belo Horizonte, MG"><label for="f_si">Site</label><input id="f_si" type="url" placeholder="https://">
+<fieldset><legend>Rede(s)</legend><div class="cks">${redes.map(r=>`<label><input type="checkbox" value="${esc(r)}">${esc(r)}</label>`).join('')}</div>
+<label for="f_rn">Ou crie uma rede nova</label><input id="f_rn" placeholder="Nome da rede"><label for="f_rc">Cor da rede nova</label><input id="f_rc" type="color" value="#2a9d8f"></fieldset>
+<label for="f_in">Indicado por</label><input id="f_in" list="dl" autocomplete="off"><label for="f_co">Conectado com (um nome por linha)</label><textarea id="f_co" rows="4"></textarea>
+<datalist id="dl">${N.map(n=>`<option value="${esc(n.nome)}">`).join('')}</datalist><button id="f_ok">Adicionar</button><div id="f_msg"></div>`;P.classList.add('open');P.scrollTop=0;$('f_nome').focus()}
+function uniq(id){let s=id,k=2;while(N.some(n=>n.id==s))s=id+'-'+k++;return s}
+function toast(t){const e=$('toast');e.textContent=t;e.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>e.style.display='none',6000)}
+function addNo(){const v=id=>$(id).value.trim(),msg=t=>$('f_msg').textContent=t,nome=v('f_nome');if(!nome)return msg('Informe o nome.');
+if(N.some(n=>nz(n.nome)==nz(nome)))return msg('Já existe um nó com esse nome.');
+const redes=[...P.querySelectorAll('.cks input:checked')].map(c=>c.value),nova=v('f_rn');
+if(nova&&!redes.some(r=>nz(r)==nz(nova))){redes.push(nova);const q='tag:#rede/'+slug(nova);if(!D.regras.some(r=>r.q==q)){const c=v('f_rc');D.regras.push({q,c});if(!D.legenda.some(l=>l.c==c))D.legenda.push({l:'Rede '+nova,c})}}
+const tags=redes.map(r=>'rede/'+slug(r));tags.push('tipo/indicacao');if(redes.length>1)tags.push('tipo/ponte');
+const criados=[],obter=nm=>{let m=N.find(n=>nz(n.nome)==nz(nm));if(!m){m={id:uniq(slug(nm)),nome:nm,tipo:'citado',tags:['tipo/citado'],extra:true};N.push(m);criados.push(nm)}return m};
+const n={id:uniq(slug(nome)),nome,tipo:'indicacao',ocupacao:v('f_oc'),areas:v('f_ar').split(/[,;]/).map(s=>s.trim()).filter(Boolean),locais:v('f_lo')?[v('f_lo')]:[],sites:v('f_si')?[v('f_si')]:[],redes,indicado_por:[],tags,extra:true};
+N.push(n);if(v('f_in')){const m=obter(v('f_in'));if(m!==n){n.indicado_por=[m.id];D.ligacoes.push([n.id,m.id])}}
+v('f_co').split('\n').map(s=>s.trim()).filter(Boolean).forEach(nm=>{const m=obter(nm);if(m!==n)D.ligacoes.push([n.id,m.id])});
+dirty++;alpha=.6;rebuild();select(n.i,true);toast('Nó adicionado.'+(criados.length?' Criados como citados: '+criados.join(', ')+'.':'')+' Use “⤓ rede.json” para salvar.')}
+function exportar(){const ks=['id','nome','tipo','ocupacao','areas','locais','sites','redes','indicado_por','tags','extra'];
+const o={titulo:D.titulo,regras:D.regras,legenda:D.legenda,nos:N.map(n=>{const r={};ks.forEach(k=>{const x=n[k];if(x!=null&&x!==''&&!(Array.isArray(x)&&!x.length))r[k]=x});return r}),ligacoes:D.ligacoes};
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(o,null,1)],{type:'application/json'}));a.download='rede.json';a.click();URL.revokeObjectURL(a.href);dirty=0;rebuild()}
+P.onclick=e=>{const a=e.target.closest('a[data-n]');if(a){e.preventDefault();select(ix[a.dataset.n],true)}else if(e.target.id=='x')select(null);else if(e.target.id=='f_ok')addNo()};
+const ptr=new Map();let drag=null,pan=null,moved=0,pd=0,st=[0,0];const dist=()=>{const [a,b]=[...ptr.values()];return Math.hypot(a[0]-b[0],a[1]-b[1])};
+cv.onpointerdown=e=>{cv.setPointerCapture(e.pointerId);ptr.set(e.pointerId,[e.offsetX,e.offsetY]);moved=0;st=[e.offsetX,e.offsetY];if(ptr.size==1){const n=pick(e.offsetX,e.offsetY);if(n){drag=n;n.fx=1}else pan=[e.offsetX-V.x,e.offsetY-V.y]}else{drag=pan=null;pd=dist()}};
+cv.onpointermove=e=>{if(!ptr.has(e.pointerId)){const n=pick(e.offsetX,e.offsetY);hov=n?n.i:null;cv.style.cursor=n?'pointer':'grab';return}ptr.set(e.pointerId,[e.offsetX,e.offsetY]);moved++;
+if(ptr.size==2){const d=dist();V.k=Math.max(.1,Math.min(6,V.k*d/pd));pd=d}else if(drag){drag.x=wx(e.offsetX);drag.y=wy(e.offsetY);if(moved>3)alpha=Math.max(alpha,.3)}else if(pan){V.x=e.offsetX-pan[0];V.y=e.offsetY-pan[1]}};
+cv.onpointerup=e=>{ptr.delete(e.pointerId);const click=Math.hypot(e.offsetX-st[0],e.offsetY-st[1])<6;if(drag){drag.fx=null;if(click)select(drag.i)}else if(pan&&click)select(null);drag=pan=null};
+cv.onpointercancel=e=>{ptr.delete(e.pointerId);if(drag)drag.fx=null;drag=pan=null};
+cv.onwheel=e=>{e.preventDefault();const x=wx(e.offsetX),y=wy(e.offsetY);V.k=Math.max(.1,Math.min(6,V.k*Math.exp(-e.deltaY*.0015)));V.x=e.offsetX-W/2-x*V.k;V.y=e.offsetY-H/2-y*V.k};
+$('leg').onclick=e=>{const b=e.target.closest('button');if(!b)return;const i=+b.dataset.g;hid.has(i)?hid.delete(i):hid.add(i);b.classList.toggle('off');if(sel!=null&&hid.has(N[sel].g))select(null)};
+Q.onkeydown=e=>{if(e.key=='Enter'){const q=nz(Q.value.trim()),n=q&&N.find(n=>n.t.includes(q));if(n)select(n.i,true)}else if(e.key=='Escape'){e.stopPropagation();Q.value='';Q.blur()}};
+addEventListener('keydown',e=>{if(e.key=='Escape'&&P.classList.contains('open'))select(null)});
+$('rs').onclick=()=>{fit();select(null)};$('ad').onclick=abrirForm;$('ex').onclick=()=>pronto&&exportar();
+$('th').onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme=='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=d?'light':'dark'};
+addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});
+function rota(){if(!pronto)return;const m=location.hash.match(/^#\/n\/(.+)$/),i=m?ix[m[1]]:null;if(i!=null){if(i!==sel)select(i,true)}else if(sel!=null)select(null)}addEventListener('hashchange',rota);
+function iniciar(d){D=d;D.regras=D.regras||[];D.legenda=D.legenda||[];D.ligacoes=D.ligacoes||[];N=D.nos||[];if(D.titulo){$('ti').textContent=D.titulo;document.title=D.titulo}
+rebuild();for(let i=0;i<300;i++)tick();fit();pronto=true;$('erro').style.display='none';rota()}
+function erro(){$('erro').style.display='flex'}
+$('arq').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>iniciar(JSON.parse(t))).catch(()=>alert('Arquivo JSON inválido.'))};
+fetch('rede.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iniciar).catch(erro);
+draw();
+</script></body></html>
